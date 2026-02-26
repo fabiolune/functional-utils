@@ -93,7 +93,7 @@ jobs:
 
     - name: retrieve list of coverage info reports
       run: |
-        echo LCOV_REPORTS=$(find ./[Tt]est*/ -name "coverage.info" | paste -sd ";") >> $GITHUB_ENV
+        echo LCOV_REPORTS=$(find ./*[Tt]est*/ -name "coverage.*info" | paste -sd ";") >> $GITHUB_ENV
 
     - name: merge code coverage data
       uses: danielpalme/ReportGenerator-GitHub-Action@v5.5.1
