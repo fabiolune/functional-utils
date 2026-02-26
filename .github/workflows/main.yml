@@ -11,6 +11,10 @@ on:
     types:
     - created
 
+concurrency:
+  group: ${{ github.ref_name }}-'dotnet'
+  cancel-in-progress: true
+
 permissions:
   security-events: read
 
