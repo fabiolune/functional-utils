@@ -23,6 +23,7 @@ build/
 bld/
 [Bb]in/
 [Oo]bj/
+out/
 
 # Visual Studio 2015 cache/options directory
 .vs/
@@ -235,3 +236,4 @@ Dockerfile
 # launch profiles (may contain env variables)
 **/launchSettings.json
 *.lutconfig
+docs/images/logo.png

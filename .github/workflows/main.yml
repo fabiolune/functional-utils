@@ -161,7 +161,7 @@ jobs:
       if: ${{ github.event_name == 'release' }}
       run: |
         dotnet tool update -g docfx
-        mkdir docs/images
+        mkdir -p docs/images
         cp logo.png docs/images/logo.png
         echo "" >> docs/index.md
         echo "version ${{ env.GitVersion_FullSemVer }}" >> docs/index.md
