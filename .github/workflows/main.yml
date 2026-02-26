@@ -149,6 +149,7 @@ jobs:
           -f stryker-config.json
 
     - name: Create and push packages
+      if: ${{ github.event_name == 'release' }}
       env:
         NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
       run: |
