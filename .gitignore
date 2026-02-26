@@ -243,3 +243,4 @@ Dockerfile
 **/launchSettings.json
 *.lutconfig
 docs/images/logo.png
+coverage.xml
