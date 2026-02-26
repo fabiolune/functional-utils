@@ -7,9 +7,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using static LanguageExt.Prelude;
-using static Functional.Utils.Functional;
+using static Fl.Functional.Utils.Functional;
 
-namespace Functional.Utils.Tests;
+namespace Fl.Functional.Utils.Tests;
 
 [TestFixture]
 public class FunctionalTests

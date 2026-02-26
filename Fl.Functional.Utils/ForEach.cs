@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using LanguageExt;
 
-namespace Functional.Utils;
+namespace Fl.Functional.Utils;
 
 public static partial class Functional
 {

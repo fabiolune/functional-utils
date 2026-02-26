@@ -1,9 +1,9 @@
 ﻿using NUnit.Framework;
 using Shouldly;
-using Functional.Utils.Recursion;
+using Fl.Functional.Utils.Recursion;
 using System.Threading.Tasks;
 
-namespace Functional.Utils.Tests.Recursion;
+namespace Fl.Functional.Utils.Tests.Recursion;
 
 [TestFixture]
 public class TailRecursionTests

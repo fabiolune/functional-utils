@@ -7,5 +7,5 @@ This repo contains facilities to introduce a functional-first approach in C# bas
 To install the library add a reference to the library with:
 
 ```bash
-dotnet add PROJECT package Functional.Utils --version <version>
+dotnet add PROJECT package Fl.Functional.Utils --version <version>
 ```

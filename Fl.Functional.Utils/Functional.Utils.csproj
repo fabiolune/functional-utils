@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <PackageId>functional-utils</PackageId>
+    <PackageId>fl-functional-utils</PackageId>
     <TargetFrameworks>net10.0;net9.0;net8.0</TargetFrameworks>
     <RepositoryUrl>https://github.com/fabiolune/functional-utils.git</RepositoryUrl>
     <PackageTags>fp functional utils</PackageTags>

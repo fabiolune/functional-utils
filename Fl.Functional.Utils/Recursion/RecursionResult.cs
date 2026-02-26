@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace Functional.Utils.Recursion;
+namespace Fl.Functional.Utils.Recursion;
 
 public class RecursionResult<T>
 {

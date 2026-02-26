@@ -166,7 +166,7 @@ jobs:
         echo "" >> docs/index.md
         echo "version ${{ env.GitVersion_FullSemVer }}" >> docs/index.md
         tail -n +4 README.md >> docs/index.md
-        cp Functional.Utils/README.md docs/docs/functional-utils.md
+        cp Fl.Functional.Utils/README.md docs/docs/functional-utils.md
         docfx docs/docfx.json
 
     - name: Push documentation to dedicated branch

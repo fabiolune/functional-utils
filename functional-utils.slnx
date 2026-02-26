@@ -1,6 +1,6 @@
 <Solution>
   <Folder Name="/tests/">
-    <Project Path="Functional.Utils.Tests/Functional.Utils.Tests.csproj" />
+    <Project Path="Fl.Functional.Utils.Tests/Fl.Functional.Utils.Tests.csproj" />
   </Folder>
-  <Project Path="Functional.Utils/Functional.Utils.csproj" />
+  <Project Path="Fl.Functional.Utils/Fl.Functional.Utils.csproj" />
 </Solution>

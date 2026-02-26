@@ -1,4 +1,4 @@
-# Functional.Utils
+# Fl.Functional.Utils
 
 A set of functional-programming extension methods for C# built on top of [LanguageExt](https://github.com/louthy/language-ext).
 
@@ -267,7 +267,7 @@ var pipeline = await GetUserAsync(id)
 Executes recursive algorithms iteratively via a trampoline, avoiding stack overflows.
 
 ```csharp
-using Functional.Utils.Recursion;
+using Fl.Functional.Utils.Recursion;
 
 // Compute factorial with safe tail recursion
 async Task<int> Factorial(int n)

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using static LanguageExt.Prelude;
 
-namespace Functional.Utils;
+namespace Fl.Functional.Utils;
 
 public static partial class Functional
 {

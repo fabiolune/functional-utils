@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace Functional.Utils;
+namespace Fl.Functional.Utils;
 
 public static partial class Functional
 {
