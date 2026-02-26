@@ -11,6 +11,9 @@ on:
     types:
     - created
 
+permissions:
+  security-events: read
+
 jobs:
   dotnet:
 
