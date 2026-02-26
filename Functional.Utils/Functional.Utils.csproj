@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net10.0;net9.0;net8.0</TargetFrameworks>
+    <Company>Deltatre</Company>
+    <PackageDescription>This library provides a set of extensions to be used in combination with the famous LanguageExt.Core functional programming library for .Net</PackageDescription>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LanguageExt.Core" Version="4.4.9" />
+  </ItemGroup>
+
+</Project>
