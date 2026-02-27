@@ -150,18 +150,24 @@ jobs:
             --version ${GITHUB_REF#refs/heads/} \
             -f stryker-config.json
 
-      - name: Create and push packages
-        # if: ${{ github.event_name == 'release' }}
-        env:
-          NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
+      - name: Create packages
         run: |
           dotnet pack --configuration Release -p:PackageVersion=${{ env.GitVersion_FullSemVer }} --output . --include-symbols
           ls ./*.nupkg | awk '! /symbols/' | xargs rm
-          dotnet nuget push ./*.nupkg --source https://api.nuget.org/v3/index.json --api-key "$NUGET_API_KEY" --skip-duplicate
+
+      - name: Push packages to github packages (all versions)
+        run: |
           dotnet nuget push ./*.nupkg --skip-duplicate
 
+      - name: Push packages to nuget.org (only on release events)
+        if: ${{ github.event_name == 'release' }}
+        env:
+          NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
+        run: |
+          dotnet nuget push ./*.nupkg --source https://api.nuget.org/v3/index.json --api-key "$NUGET_API_KEY" --skip-duplicate
+
       - name: Produce full documentation
-        # if: ${{ github.event_name == 'release' }}
+        if: ${{ github.event_name == 'release' }}
         run: |
           dotnet tool update -g docfx
           mkdir -p docs/images
@@ -173,7 +179,7 @@ jobs:
           docfx docs/docfx.json
 
       - name: Push documentation to dedicated branch
-        # if: ${{ github.event_name == 'release' }}
+        if: ${{ github.event_name == 'release' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         uses: crazy-max/ghaction-github-pages@v4.2.0
