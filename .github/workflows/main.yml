@@ -158,6 +158,7 @@ jobs:
           ls ./*.nupkg | awk '! /symbols/' | xargs rm
 
       - name: Push packages to github packages (all versions)
+        if: ${{ github.event_name != 'pull_request' }}
         run: |
           dotnet nuget push ./*.nupkg --skip-duplicate
 
