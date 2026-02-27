@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Fl.Functional.Utils | Functional Utils Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Fl.Functional.Utils | Functional Utils Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/fabiolune/functional-utils/blob/v0.1.0/docs/docs/functional-utils.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="flfunctionalutils">Fl.Functional.Utils</h1>
+
+<p>A set of functional-programming extension methods for C# built on top of <a href="https://github.com/louthy/language-ext">LanguageExt</a>.</p>
+<hr>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+<li><a href="#map">Map</a></li>
+<li><a href="#do">Do</a></li>
+<li><a href="#tee--teewhen">Tee / TeeWhen</a></li>
+<li><a href="#makeoption">MakeOption</a></li>
+<li><a href="#makeeither">MakeEither</a></li>
+<li><a href="#orelse">OrElse</a></li>
+<li><a href="#foreach">ForEach</a></li>
+<li><a href="#combine">Combine</a></li>
+<li><a href="#using--usingasync">Using / UsingAsync</a></li>
+<li><a href="#match--matchasync">Match / MatchAsync</a></li>
+<li><a href="#bind--bindleftasync">Bind / BindLeftAsync</a></li>
+<li><a href="#tail-recursion">Tail Recursion</a></li>
+</ul>
+<hr>
+<h2 id="map">Map</h2>
+<p>Applies a function to any value, enabling fluent transformation pipelines without temporary variables.</p>
+<pre><code class="lang-csharp">// Basic transformation
+int length = &quot;hello&quot;.Map(s =&gt; s.Length); // 5
+
+// Chaining transformations
+string result = 42
+    .Map(n =&gt; n * 2)
+    .Map(n =&gt; $&quot;Value is {n}&quot;); // &quot;Value is 84&quot;
+
+// Async variant
+Task&lt;int&gt; asyncResult = &quot;hello&quot;.MapAsync(async s =&gt;
+{
+    await Task.Delay(10);
+    return s.Length;
+});
+
+// Tuple variant: apply the same function to both elements
+(int, int) doubled = (3, 7).SameMap(x =&gt; x * 2); // (6, 14)
+</code></pre>
+<hr>
+<h2 id="do">Do</h2>
+<p>Executes a side-effecting action on a value. Unlike <code>Tee</code>, the return type is <code>void</code>.</p>
+<pre><code class="lang-csharp">// Trigger a side effect (e.g., logging) without breaking a chain
+user.Do(u =&gt; logger.LogInformation(&quot;Processing user {Id}&quot;, u.Id));
+
+// Async variant
+await user.DoAsync(async u =&gt; await auditService.RecordAsync(u.Id));
+</code></pre>
+<hr>
+<h2 id="tee--teewhen">Tee / TeeWhen</h2>
+<p>Performs a side effect and returns the <strong>original value</strong>, making it easy to inject logging or auditing into a pipeline.</p>
+<pre><code class="lang-csharp">// Tee: always execute the side effect
+var order = CreateOrder()
+    .Tee(o =&gt; logger.Log($&quot;Order {o.Id} created&quot;))
+    .Tee(o =&gt; metrics.Increment(&quot;orders.created&quot;));
+
+// TeeWhen with a boolean condition
+var processed = order
+    .TeeWhen(o =&gt; o with { Flagged = true }, order.Amount &gt; 1000);
+
+// TeeWhen with a predicate on the value
+var audited = order
+    .TeeWhen(o =&gt; o with { Audited = true }, o =&gt; o.Amount &gt; 500);
+
+// TeeWhen with an Action (side effect only, returns original value)
+var logged = order
+    .TeeWhen(o =&gt; logger.Log(&quot;High value order&quot;), () =&gt; order.Amount &gt; 1000);
+
+// Async variants
+var result = await order
+    .TeeWhenAsync(async o =&gt; await auditService.RecordAsync(o), o =&gt; o.Amount &gt; 500);
+</code></pre>
+<hr>
+<h2 id="makeoption">MakeOption</h2>
+<p>Wraps a value in <code>Option&lt;T&gt;</code>, producing <code>None</code> for <code>null</code> references or when a predicate is satisfied.</p>
+<pre><code class="lang-csharp">// Null becomes None automatically
+string maybeNull = null;
+Option&lt;string&gt; opt = maybeNull.MakeOption(); // None
+
+// Value becomes Some
+Option&lt;string&gt; some = &quot;hello&quot;.MakeOption(); // Some(&quot;hello&quot;)
+
+// None when predicate matches
+Option&lt;int&gt; opt2 = 0.MakeOption(n =&gt; n == 0); // None
+Option&lt;int&gt; opt3 = 42.MakeOption(n =&gt; n == 0); // Some(42)
+
+// Map and filter in one step
+Option&lt;int&gt; length = &quot;hello&quot;.MakeOption(s =&gt; s.Length, s =&gt; s.StartsWith(&quot;x&quot;)); // Some(5)
+
+// Async variant
+Option&lt;string&gt; asyncOpt = await FetchNameAsync().MakeOptionAsync(s =&gt; string.IsNullOrEmpty(s));
+</code></pre>
+<hr>
+<h2 id="makeeither">MakeEither</h2>
+<p>Wraps a value in <code>Either&lt;TLeft, TRight&gt;</code>, choosing <code>Right</code> for success and <code>Left</code> for failure.</p>
+<pre><code class="lang-csharp">// Right when value is non-null / predicate is false
+Either&lt;string, int&gt; right = 42.MakeEither(&quot;value was invalid&quot;); // Right(42)
+
+// Left when predicate holds
+Either&lt;string, int&gt; left = (-1).MakeEither(n =&gt; n &lt; 0, &quot;negative number&quot;); // Left(&quot;negative number&quot;)
+
+// Left value computed lazily via a factory
+Either&lt;Error, User&gt; result = user.MakeEither(
+    u =&gt; u == null,
+    () =&gt; Error.New(&quot;user not found&quot;));
+
+// Map the right side while deciding left
+Either&lt;string, int&gt; mapped = &quot;42&quot;
+    .MakeEither(s =&gt; int.Parse(s), s =&gt; !int.TryParse(s, out _), &quot;not a number&quot;);
+</code></pre>
+<hr>
+<h2 id="orelse">OrElse</h2>
+<p>Extracts the value from an <code>Option&lt;T&gt;</code>, falling back to a default if it is <code>None</code>.</p>
+<pre><code class="lang-csharp">Option&lt;string&gt; name = GetName(); // might be None
+
+string display = name.OrElse(&quot;Anonymous&quot;);
+</code></pre>
+<hr>
+<h2 id="foreach">ForEach</h2>
+<p>Iterates over an <code>IEnumerable&lt;T&gt;</code> safely, returning <code>Option&lt;Unit&gt;</code> (<code>None</code> when the source is <code>null</code>).</p>
+<pre><code class="lang-csharp">IEnumerable&lt;int&gt; numbers = GetNumbers(); // might be null
+
+numbers
+    .ForEach(n =&gt; Console.WriteLine(n))
+    .Match(
+        _ =&gt; Console.WriteLine(&quot;Done&quot;),
+        () =&gt; Console.WriteLine(&quot;No items&quot;));
+
+// Null-safe: no NullReferenceException
+((IEnumerable&lt;int&gt;)null).ForEach(Console.WriteLine); // None, nothing executed
+</code></pre>
+<hr>
+<h2 id="combine">Combine</h2>
+<p>Merges two <code>Action&lt;T&gt;</code> delegates. If the first action is <code>null</code>, the second is used as the fallback.</p>
+<pre><code class="lang-csharp">Action&lt;List&lt;string&gt;&gt; addItems = list =&gt; list.AddRange(new[] { &quot;a&quot;, &quot;b&quot; });
+Action&lt;List&lt;string&gt;&gt; addFooter = list =&gt; list.Add(&quot;end&quot;);
+
+// Both actions run in sequence
+Action&lt;List&lt;string&gt;&gt; combined = addItems.Combine(addFooter);
+combined(myList); // myList = [&quot;a&quot;, &quot;b&quot;, &quot;end&quot;]
+
+// Null-safe: when the first action is null, only the default runs
+Action&lt;List&lt;string&gt;&gt; safe = ((Action&lt;List&lt;string&gt;&gt;)null).Combine(addFooter);
+safe(myList); // myList = [&quot;end&quot;]
+</code></pre>
+<hr>
+<h2 id="using--usingasync">Using / UsingAsync</h2>
+<p>Safely manages <code>IDisposable</code> resources while returning a value, enabling them inside expression pipelines.</p>
+<pre><code class="lang-csharp">// Action overload – returns Unit
+Unit _ = Functional.Using(
+    new FileStream(&quot;data.bin&quot;, FileMode.Open),
+    stream =&gt; ProcessStream(stream));
+
+// Func overload – returns a value
+byte[] bytes = Functional.Using(
+    new FileStream(&quot;data.bin&quot;, FileMode.Open),
+    stream =&gt; ReadAllBytes(stream));
+
+// Chained disposables
+string result = Functional.Using(
+    new SqlConnection(connectionString),
+    conn =&gt; new SqlCommand(&quot;SELECT ...&quot;, conn),
+    (conn, cmd) =&gt; (string)cmd.ExecuteScalar());
+
+// Async variants
+string content = await Functional.UsingAsync(
+    new HttpClient(),
+    client =&gt; client.GetStringAsync(&quot;https://example.com&quot;));
+</code></pre>
+<hr>
+<h2 id="match--matchasync">Match / MatchAsync</h2>
+<p>Pattern-matches an <code>Either</code> or <code>Task&lt;Either&gt;</code> into a single output value.</p>
+<pre><code class="lang-csharp">Either&lt;string, int&gt; result = Parse(input);
+
+// Synchronous match
+string message = result.Match(
+    Right: value =&gt; $&quot;Parsed: {value}&quot;,
+    Left:  error =&gt; $&quot;Error: {error}&quot;);
+
+// Async match on Task&lt;Either&gt;
+Task&lt;Either&lt;string, int&gt;&gt; asyncResult = ParseAsync(input);
+
+string msg = await asyncResult.MatchAsync(
+    onRightAsync: async value =&gt; await FormatAsync(value),
+    onLeftAsync:  async error =&gt; await LogAndFormatAsync(error));
+
+// Mixed sync/async
+string msg2 = await asyncResult.MatchAsync(
+    onRight: value =&gt; $&quot;OK: {value}&quot;,
+    onLeftAsync: async error =&gt; await LogAndFormatAsync(error));
+</code></pre>
+<hr>
+<h2 id="bind--bindleftasync">Bind / BindLeftAsync</h2>
+<p>Chains <code>Either</code>-returning functions, handling the left (error) side asynchronously.</p>
+<pre><code class="lang-csharp">Task&lt;Either&lt;string, int&gt;&gt; step1 = ParseAsync(input);
+
+// Remap the Left side when the Task resolves
+Task&lt;Either&lt;ErrorCode, int&gt;&gt; step2 = step1.BindLeftAsync(
+    errorMessage =&gt; ErrorCode.FromMessage(errorMessage));
+
+// Or chain inside a pipeline
+var pipeline = await GetUserAsync(id)
+    .BindLeftAsync(msg =&gt; new NotFoundError(msg));
+</code></pre>
+<hr>
+<h2 id="tail-recursion">Tail Recursion</h2>
+<p>Executes recursive algorithms iteratively via a trampoline, avoiding stack overflows.</p>
+<pre><code class="lang-csharp">using Fl.Functional.Utils.Recursion;
+
+// Compute factorial with safe tail recursion
+async Task&lt;int&gt; Factorial(int n)
+{
+    return await TailRecursion.ExecuteAsync(Step(n, 1));
+
+    Func&lt;Task&lt;RecursionResult&lt;int&gt;&gt;&gt; Step(int remaining, int accumulator) =&gt;
+        () =&gt; remaining &lt;= 1
+            ? RecursionResult&lt;int&gt;.CreateLastAsync(accumulator, Step(0, accumulator))
+            : RecursionResult&lt;int&gt;.CreateNextAsync(accumulator, Step(remaining - 1, remaining * accumulator));
+}
+
+int result = await Factorial(10); // 3628800
+</code></pre>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/fabiolune/functional-utils/blob/v0.1.0/docs/docs/functional-utils.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
