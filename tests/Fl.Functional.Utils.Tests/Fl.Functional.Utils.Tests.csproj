@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Fl.Functional.Utils\Fl.Functional.Utils.csproj" />
+    <ProjectReference Include="..\..\Fl.Functional.Utils\Fl.Functional.Utils.csproj" />
   </ItemGroup>
 
 </Project>
