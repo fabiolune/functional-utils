@@ -21,6 +21,8 @@ jobs:
       contents: write
       packages: write
       security-events: write
+      issues: write
+      pull-requests: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
