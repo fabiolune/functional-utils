@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Fl.Functional.Utils | Functional Utils Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Fl.Functional.Utils | Functional Utils Documentation ">
+      
+      
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/fabiolune/functional-utils/blob/v0.2.0/docs/index.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="landing" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="images/logo.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+
+
+<p>version 0.2.0</p>
+<p>repo url: <a href="https://github.com/fabiolune/functional-utils">https://github.com/fabiolune/functional-utils</a></p>
+<h1 id="flfunctionalutils">Fl.Functional.Utils</h1>
+<p><a href="https://github.com/fabiolune/functional-utils/actions/workflows/main.yml"><img src="https://github.com/fabiolune/functional-utils/actions/workflows/main.yml/badge.svg" alt="dotnet"></a>
+<a href="https://sonarcloud.io/summary/new_code?id=fabiolune_functional-utils"><img src="https://sonarcloud.io/api/project_badges/measure?project=fabiolune_functional-utils&amp;metric=alert_status" alt="Quality Gate Status"></a>
+<a href="https://codecov.io/gh/fabiolune/functional-utils"><img src="https://codecov.io/gh/fabiolune/functional-utils/graph/badge.svg?token=3VW1F0AG19" alt="codecov"></a>
+<a href="https://dashboard.stryker-mutator.io/reports/github.com/fabiolune/functional-utils/main"><img src="https://img.shields.io/endpoint?style=flat&amp;url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Ffabiolune%2Ffunctional-utils%2Fmain" alt="Mutation testing badge"></a></p>
+<p>A comprehensive set of functional programming extension methods for C# that enables a functional-first approach in .NET projects. Built on top of <a href="https://github.com/louthy/language-ext">LanguageExt</a>, this library provides fluent APIs for common functional patterns.</p>
+<h2 id="-quick-start">🚀 Quick Start</h2>
+<p>Install the library via NuGet:</p>
+<pre><code class="lang-bash">dotnet add PROJECT package Fl.Functional.Utils --version &lt;version&gt;
+</code></pre>
+<h2 id="-overview">🎯 Overview</h2>
+<p>Fl.Functional.Utils bridges the gap between C#'s object-oriented nature and functional programming paradigms. It provides:</p>
+<ul>
+<li><strong>Fluent transformation pipelines</strong> with <code>Map</code>, <code>Bind</code>, and <code>Tee</code></li>
+<li><strong>Safe null handling</strong> with <code>Option&lt;T&gt;</code> and <code>Either&lt;TLeft, TRight&gt;</code> types</li>
+<li><strong>Resource management</strong> with functional <code>Using</code> patterns</li>
+<li><strong>Pattern matching</strong> utilities for cleaner conditional logic</li>
+<li><strong>Tail recursion</strong> support to prevent stack overflows</li>
+<li><strong>Async-first design</strong> with full async/await support</li>
+</ul>
+<h2 id="-core-features">✨ Core Features</h2>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Map</strong></td>
+<td>Transform values in fluent pipelines</td>
+</tr>
+<tr>
+<td><strong>Bind</strong></td>
+<td>Chain operations that return functional types</td>
+</tr>
+<tr>
+<td><strong>Tee/TeeWhen</strong></td>
+<td>Inject side effects without breaking chains</td>
+</tr>
+<tr>
+<td><strong>MakeOption/MakeEither</strong></td>
+<td>Convert values to functional types</td>
+</tr>
+<tr>
+<td><strong>Match</strong></td>
+<td>Pattern match on functional types</td>
+</tr>
+<tr>
+<td><strong>Using</strong></td>
+<td>Resource management in functional style</td>
+</tr>
+<tr>
+<td><strong>Tail Recursion</strong></td>
+<td>Stack-safe recursive algorithms</td>
+</tr>
+<tr>
+<td><strong>ForEach</strong></td>
+<td>Null-safe iteration over collections</td>
+</tr>
+</tbody>
+</table>
+<h2 id="-documentation">📚 Documentation</h2>
+<ul>
+<li><strong><a href="Fl.Functional.Utils/README.md">API Reference</a></strong> - Detailed documentation with examples for all utilities</li>
+<li><strong><a href="https://fabiolune.github.io/functional-utils/">Online Documentation</a></strong> - Complete documentation site</li>
+<li><strong><a href="docs/index.md">Getting Started</a></strong> - Introduction and setup guide</li>
+</ul>
+<h2 id="-project-structure">🏗️ Project Structure</h2>
+<pre><code class="lang-text">├── Fl.Functional.Utils/          # Main library source code
+│   ├── *.cs                      # Core utility functions
+│   ├── Recursion/                # Tail recursion utilities
+│   └── README.md                 # Detailed API documentation
+├── tests/                        # Test suite
+│   └── Fl.Functional.Utils.Tests/
+├── docs/                         # Documentation source
+└── README.md                     # This file
+</code></pre>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/fabiolune/functional-utils/blob/v0.2.0/docs/index.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
