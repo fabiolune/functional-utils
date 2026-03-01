@@ -124,42 +124,46 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           lcov-file: ./coveragereport/lcov.info
 
-      - name: generate mutation report
+      - name: Install and configure dotnet stryker
+        run: |
+          dotnet tool install -g dotnet-stryker
+          export PATH="$PATH:$HOME/.dotnet/tools"
+          project_name=$(echo "${{ github.server_url }}/${{ github.repository }}" | sed 's/https:\/\///g')
+          cat <<EOT > stryker-config.json
+          {
+              "stryker-config": {
+                  "project-info": {
+                      "name": "${project_name}"
+                  },
+                  "mutation-level": "advanced"
+              }
+          }
+          EOT
+
+      - name: create stryker version parameter
         if: ${{ github.event_name == 'release' }}
-        env:
-          STRYKER_API_KEY: ${{ secrets.STRYKER_API_KEY }}
-        run: |
-          dotnet tool install -g dotnet-stryker
-          export PATH="$PATH:$HOME/.dotnet/tools"
-          dotnet stryker \
-            --reporter "dashboard" \
-            --dashboard-api-key "$STRYKER_API_KEY" \
-            --version ${{ env.GitVersion_FullSemVer }} \
-            -f stryker-config.json
+        run: echo "VERSION_FOR_STRYKER=${{ env.GitVersion_FullSemVer }}" >> $GITHUB_ENV
+
+      - name: create stryker version parameter
+        if: ${{ github.event_name != 'release' && github.event_name != 'pull_request' }}
+        run: echo "VERSION_FOR_STRYKER=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
 
       - name: generate mutation report
-        if: ${{ github.event_name != 'release' && github.event_name != 'pull_request' }}
+        if: ${{ github.event_name != 'pull_request' }}
         env:
-          VSTEST_CONNECTION_TIMEOUT: 500
           STRYKER_API_KEY: ${{ secrets.STRYKER_API_KEY }}
-        continue-on-error: true
         run: |
-          dotnet tool install -g dotnet-stryker
-          export PATH="$PATH:$HOME/.dotnet/tools"
           dotnet stryker \
             --reporter "dashboard" \
             --dashboard-api-key "$STRYKER_API_KEY" \
-            --version ${GITHUB_REF#refs/heads/} \
+            --version ${{ env.VERSION_FOR_STRYKER }} \
             -f stryker-config.json
-
-      - name: Create packages
-        run: |
-          dotnet pack --configuration Release -p:PackageVersion=${{ env.GitVersion_FullSemVer }} --output . --include-symbols
-          ls ./*.nupkg | awk '! /symbols/' | xargs rm
 
       - name: Push packages to github packages (all versions)
         if: ${{ github.event_name != 'pull_request' }}
         run: |
+          dotnet pack --configuration Release -p:PackageVersion=${{ env.GitVersion_FullSemVer }} --output . --include-symbols
+          ls ./*.nupkg | awk '! /symbols/' | xargs rm
           dotnet nuget push ./*.nupkg --skip-duplicate
 
       - name: Push packages to nuget.org (only on release events)
@@ -177,8 +181,10 @@ jobs:
           cp logo.png docs/images/logo.png
           echo "" >> docs/index.md
           echo "version ${{ env.GitVersion_FullSemVer }}" >> docs/index.md
-          echo "repo url: [${{ github.repositoryUrl }}](${{ github.repositoryUrl }})" >> docs/index.md
-          tail -n +4 README.md >> docs/index.md
+          echo "" >> docs/index.md
+          echo "repo url: [${{ github.server_url }}/${{ github.repository }}](${{ github.server_url }}/${{ github.repository }})" >> docs/index.md
+          echo "" >> docs/index.md
+          tail -n +3 README.md >> docs/index.md
           cp Fl.Functional.Utils/README.md docs/docs/functional-utils.md
           docfx docs/docfx.json
 
