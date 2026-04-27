@@ -1,0 +1,923 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Fl.Functional.Utils
+  name: Fl.Functional.Utils
+  href: api/Fl.Functional.Utils.html
+  commentId: N:Fl.Functional.Utils
+  fullName: Fl.Functional.Utils
+  nameWithType: Fl.Functional.Utils
+- uid: Fl.Functional.Utils.Functional
+  name: Functional
+  href: api/Fl.Functional.Utils.Functional.html
+  commentId: T:Fl.Functional.Utils.Functional
+  fullName: Fl.Functional.Utils.Functional
+  nameWithType: Functional
+- uid: Fl.Functional.Utils.Functional.BindLeftAsync*
+  name: BindLeftAsync
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_BindLeftAsync_
+  commentId: Overload:Fl.Functional.Utils.Functional.BindLeftAsync
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Functional.BindLeftAsync
+  nameWithType: Functional.BindLeftAsync
+- uid: Fl.Functional.Utils.Functional.BindLeftAsync``3(System.Threading.Tasks.Task{LanguageExt.Either{``0,``1}},System.Func{``0,LanguageExt.Either{``2,``1}})
+  name: BindLeftAsync<TL, TR, TMl>(Task<Either<TL, TR>>, Func<TL, Either<TMl, TR>>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_BindLeftAsync__3_System_Threading_Tasks_Task_LanguageExt_Either___0___1___System_Func___0_LanguageExt_Either___2___1___
+  commentId: M:Fl.Functional.Utils.Functional.BindLeftAsync``3(System.Threading.Tasks.Task{LanguageExt.Either{``0,``1}},System.Func{``0,LanguageExt.Either{``2,``1}})
+  name.vb: BindLeftAsync(Of TL, TR, TMl)(Task(Of Either(Of TL, TR)), Func(Of TL, Either(Of TMl, TR)))
+  fullName: Fl.Functional.Utils.Functional.BindLeftAsync<TL, TR, TMl>(System.Threading.Tasks.Task<LanguageExt.Either<TL, TR>>, System.Func<TL, LanguageExt.Either<TMl, TR>>)
+  fullName.vb: Fl.Functional.Utils.Functional.BindLeftAsync(Of TL, TR, TMl)(System.Threading.Tasks.Task(Of LanguageExt.Either(Of TL, TR)), System.Func(Of TL, LanguageExt.Either(Of TMl, TR)))
+  nameWithType: Functional.BindLeftAsync<TL, TR, TMl>(Task<Either<TL, TR>>, Func<TL, Either<TMl, TR>>)
+  nameWithType.vb: Functional.BindLeftAsync(Of TL, TR, TMl)(Task(Of Either(Of TL, TR)), Func(Of TL, Either(Of TMl, TR)))
+- uid: Fl.Functional.Utils.Functional.Combine*
+  name: Combine
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_Combine_
+  commentId: Overload:Fl.Functional.Utils.Functional.Combine
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Functional.Combine
+  nameWithType: Functional.Combine
+- uid: Fl.Functional.Utils.Functional.Combine``1(System.Action{``0},System.Action{``0})
+  name: Combine<T>(Action<T>, Action<T>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_Combine__1_System_Action___0__System_Action___0__
+  commentId: M:Fl.Functional.Utils.Functional.Combine``1(System.Action{``0},System.Action{``0})
+  name.vb: Combine(Of T)(Action(Of T), Action(Of T))
+  fullName: Fl.Functional.Utils.Functional.Combine<T>(System.Action<T>, System.Action<T>)
+  fullName.vb: Fl.Functional.Utils.Functional.Combine(Of T)(System.Action(Of T), System.Action(Of T))
+  nameWithType: Functional.Combine<T>(Action<T>, Action<T>)
+  nameWithType.vb: Functional.Combine(Of T)(Action(Of T), Action(Of T))
+- uid: Fl.Functional.Utils.Functional.Do*
+  name: Do
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_Do_
+  commentId: Overload:Fl.Functional.Utils.Functional.Do
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Functional.Do
+  nameWithType: Functional.Do
+- uid: Fl.Functional.Utils.Functional.DoAsync*
+  name: DoAsync
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_DoAsync_
+  commentId: Overload:Fl.Functional.Utils.Functional.DoAsync
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Functional.DoAsync
+  nameWithType: Functional.DoAsync
+- uid: Fl.Functional.Utils.Functional.DoAsync``1(``0,System.Func{``0,System.Threading.Tasks.Task})
+  name: DoAsync<T>(T, Func<T, Task>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_DoAsync__1___0_System_Func___0_System_Threading_Tasks_Task__
+  commentId: M:Fl.Functional.Utils.Functional.DoAsync``1(``0,System.Func{``0,System.Threading.Tasks.Task})
+  name.vb: DoAsync(Of T)(T, Func(Of T, Task))
+  fullName: Fl.Functional.Utils.Functional.DoAsync<T>(T, System.Func<T, System.Threading.Tasks.Task>)
+  fullName.vb: Fl.Functional.Utils.Functional.DoAsync(Of T)(T, System.Func(Of T, System.Threading.Tasks.Task))
+  nameWithType: Functional.DoAsync<T>(T, Func<T, Task>)
+  nameWithType.vb: Functional.DoAsync(Of T)(T, Func(Of T, Task))
+- uid: Fl.Functional.Utils.Functional.Do``1(``0,System.Action{``0})
+  name: Do<T>(T, Action<T>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_Do__1___0_System_Action___0__
+  commentId: M:Fl.Functional.Utils.Functional.Do``1(``0,System.Action{``0})
+  name.vb: Do(Of T)(T, Action(Of T))
+  fullName: Fl.Functional.Utils.Functional.Do<T>(T, System.Action<T>)
+  fullName.vb: Fl.Functional.Utils.Functional.Do(Of T)(T, System.Action(Of T))
+  nameWithType: Functional.Do<T>(T, Action<T>)
+  nameWithType.vb: Functional.Do(Of T)(T, Action(Of T))
+- uid: Fl.Functional.Utils.Functional.ForEach*
+  name: ForEach
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_ForEach_
+  commentId: Overload:Fl.Functional.Utils.Functional.ForEach
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Functional.ForEach
+  nameWithType: Functional.ForEach
+- uid: Fl.Functional.Utils.Functional.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  name: ForEach<T>(IEnumerable<T>, Action<T>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
+  commentId: M:Fl.Functional.Utils.Functional.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  name.vb: ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+  fullName: Fl.Functional.Utils.Functional.ForEach<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T>)
+  fullName.vb: Fl.Functional.Utils.Functional.ForEach(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T))
+  nameWithType: Functional.ForEach<T>(IEnumerable<T>, Action<T>)
+  nameWithType.vb: Functional.ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+- uid: Fl.Functional.Utils.Functional.MakeEither*
+  name: MakeEither
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MakeEither_
+  commentId: Overload:Fl.Functional.Utils.Functional.MakeEither
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Functional.MakeEither
+  nameWithType: Functional.MakeEither
+- uid: Fl.Functional.Utils.Functional.MakeEitherAsync*
+  name: MakeEitherAsync
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MakeEitherAsync_
+  commentId: Overload:Fl.Functional.Utils.Functional.MakeEitherAsync
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Functional.MakeEitherAsync
+  nameWithType: Functional.MakeEitherAsync
+- uid: Fl.Functional.Utils.Functional.MakeEitherAsync``2(System.Threading.Tasks.Task{``1},System.Func{``0})
+  name: MakeEitherAsync<TL, TR>(Task<TR>, Func<TL>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MakeEitherAsync__2_System_Threading_Tasks_Task___1__System_Func___0__
+  commentId: M:Fl.Functional.Utils.Functional.MakeEitherAsync``2(System.Threading.Tasks.Task{``1},System.Func{``0})
+  name.vb: MakeEitherAsync(Of TL, TR)(Task(Of TR), Func(Of TL))
+  fullName: Fl.Functional.Utils.Functional.MakeEitherAsync<TL, TR>(System.Threading.Tasks.Task<TR>, System.Func<TL>)
+  fullName.vb: Fl.Functional.Utils.Functional.MakeEitherAsync(Of TL, TR)(System.Threading.Tasks.Task(Of TR), System.Func(Of TL))
+  nameWithType: Functional.MakeEitherAsync<TL, TR>(Task<TR>, Func<TL>)
+  nameWithType.vb: Functional.MakeEitherAsync(Of TL, TR)(Task(Of TR), Func(Of TL))
+- uid: Fl.Functional.Utils.Functional.MakeEitherAsync``2(System.Threading.Tasks.Task{``1},System.Predicate{``1},System.Func{``0})
+  name: MakeEitherAsync<TL, TR>(Task<TR>, Predicate<TR>, Func<TL>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MakeEitherAsync__2_System_Threading_Tasks_Task___1__System_Predicate___1__System_Func___0__
+  commentId: M:Fl.Functional.Utils.Functional.MakeEitherAsync``2(System.Threading.Tasks.Task{``1},System.Predicate{``1},System.Func{``0})
+  name.vb: MakeEitherAsync(Of TL, TR)(Task(Of TR), Predicate(Of TR), Func(Of TL))
+  fullName: Fl.Functional.Utils.Functional.MakeEitherAsync<TL, TR>(System.Threading.Tasks.Task<TR>, System.Predicate<TR>, System.Func<TL>)
+  fullName.vb: Fl.Functional.Utils.Functional.MakeEitherAsync(Of TL, TR)(System.Threading.Tasks.Task(Of TR), System.Predicate(Of TR), System.Func(Of TL))
+  nameWithType: Functional.MakeEitherAsync<TL, TR>(Task<TR>, Predicate<TR>, Func<TL>)
+  nameWithType.vb: Functional.MakeEitherAsync(Of TL, TR)(Task(Of TR), Predicate(Of TR), Func(Of TL))
+- uid: Fl.Functional.Utils.Functional.MakeEitherAsync``2(System.Threading.Tasks.Task{``1},System.Predicate{``1},``0)
+  name: MakeEitherAsync<TL, TR>(Task<TR>, Predicate<TR>, TL)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MakeEitherAsync__2_System_Threading_Tasks_Task___1__System_Predicate___1____0_
+  commentId: M:Fl.Functional.Utils.Functional.MakeEitherAsync``2(System.Threading.Tasks.Task{``1},System.Predicate{``1},``0)
+  name.vb: MakeEitherAsync(Of TL, TR)(Task(Of TR), Predicate(Of TR), TL)
+  fullName: Fl.Functional.Utils.Functional.MakeEitherAsync<TL, TR>(System.Threading.Tasks.Task<TR>, System.Predicate<TR>, TL)
+  fullName.vb: Fl.Functional.Utils.Functional.MakeEitherAsync(Of TL, TR)(System.Threading.Tasks.Task(Of TR), System.Predicate(Of TR), TL)
+  nameWithType: Functional.MakeEitherAsync<TL, TR>(Task<TR>, Predicate<TR>, TL)
+  nameWithType.vb: Functional.MakeEitherAsync(Of TL, TR)(Task(Of TR), Predicate(Of TR), TL)
+- uid: Fl.Functional.Utils.Functional.MakeEitherAsync``2(System.Threading.Tasks.Task{``1},``0)
+  name: MakeEitherAsync<TL, TR>(Task<TR>, TL)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MakeEitherAsync__2_System_Threading_Tasks_Task___1____0_
+  commentId: M:Fl.Functional.Utils.Functional.MakeEitherAsync``2(System.Threading.Tasks.Task{``1},``0)
+  name.vb: MakeEitherAsync(Of TL, TR)(Task(Of TR), TL)
+  fullName: Fl.Functional.Utils.Functional.MakeEitherAsync<TL, TR>(System.Threading.Tasks.Task<TR>, TL)
+  fullName.vb: Fl.Functional.Utils.Functional.MakeEitherAsync(Of TL, TR)(System.Threading.Tasks.Task(Of TR), TL)
+  nameWithType: Functional.MakeEitherAsync<TL, TR>(Task<TR>, TL)
+  nameWithType.vb: Functional.MakeEitherAsync(Of TL, TR)(Task(Of TR), TL)
+- uid: Fl.Functional.Utils.Functional.MakeEitherAsync``3(System.Threading.Tasks.Task{``1},System.Func{``1,``2},System.Predicate{``1},System.Func{``0})
+  name: MakeEitherAsync<TL, TRInput, TROutput>(Task<TRInput>, Func<TRInput, TROutput>, Predicate<TRInput>, Func<TL>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MakeEitherAsync__3_System_Threading_Tasks_Task___1__System_Func___1___2__System_Predicate___1__System_Func___0__
+  commentId: M:Fl.Functional.Utils.Functional.MakeEitherAsync``3(System.Threading.Tasks.Task{``1},System.Func{``1,``2},System.Predicate{``1},System.Func{``0})
+  name.vb: MakeEitherAsync(Of TL, TRInput, TROutput)(Task(Of TRInput), Func(Of TRInput, TROutput), Predicate(Of TRInput), Func(Of TL))
+  fullName: Fl.Functional.Utils.Functional.MakeEitherAsync<TL, TRInput, TROutput>(System.Threading.Tasks.Task<TRInput>, System.Func<TRInput, TROutput>, System.Predicate<TRInput>, System.Func<TL>)
+  fullName.vb: Fl.Functional.Utils.Functional.MakeEitherAsync(Of TL, TRInput, TROutput)(System.Threading.Tasks.Task(Of TRInput), System.Func(Of TRInput, TROutput), System.Predicate(Of TRInput), System.Func(Of TL))
+  nameWithType: Functional.MakeEitherAsync<TL, TRInput, TROutput>(Task<TRInput>, Func<TRInput, TROutput>, Predicate<TRInput>, Func<TL>)
+  nameWithType.vb: Functional.MakeEitherAsync(Of TL, TRInput, TROutput)(Task(Of TRInput), Func(Of TRInput, TROutput), Predicate(Of TRInput), Func(Of TL))
+- uid: Fl.Functional.Utils.Functional.MakeEitherAsync``3(System.Threading.Tasks.Task{``1},System.Func{``1,``2},System.Predicate{``1},``0)
+  name: MakeEitherAsync<TL, TRInput, TROutput>(Task<TRInput>, Func<TRInput, TROutput>, Predicate<TRInput>, TL)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MakeEitherAsync__3_System_Threading_Tasks_Task___1__System_Func___1___2__System_Predicate___1____0_
+  commentId: M:Fl.Functional.Utils.Functional.MakeEitherAsync``3(System.Threading.Tasks.Task{``1},System.Func{``1,``2},System.Predicate{``1},``0)
+  name.vb: MakeEitherAsync(Of TL, TRInput, TROutput)(Task(Of TRInput), Func(Of TRInput, TROutput), Predicate(Of TRInput), TL)
+  fullName: Fl.Functional.Utils.Functional.MakeEitherAsync<TL, TRInput, TROutput>(System.Threading.Tasks.Task<TRInput>, System.Func<TRInput, TROutput>, System.Predicate<TRInput>, TL)
+  fullName.vb: Fl.Functional.Utils.Functional.MakeEitherAsync(Of TL, TRInput, TROutput)(System.Threading.Tasks.Task(Of TRInput), System.Func(Of TRInput, TROutput), System.Predicate(Of TRInput), TL)
+  nameWithType: Functional.MakeEitherAsync<TL, TRInput, TROutput>(Task<TRInput>, Func<TRInput, TROutput>, Predicate<TRInput>, TL)
+  nameWithType.vb: Functional.MakeEitherAsync(Of TL, TRInput, TROutput)(Task(Of TRInput), Func(Of TRInput, TROutput), Predicate(Of TRInput), TL)
+- uid: Fl.Functional.Utils.Functional.MakeEither``2(``1,System.Func{``0})
+  name: MakeEither<TL, TR>(TR, Func<TL>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MakeEither__2___1_System_Func___0__
+  commentId: M:Fl.Functional.Utils.Functional.MakeEither``2(``1,System.Func{``0})
+  name.vb: MakeEither(Of TL, TR)(TR, Func(Of TL))
+  fullName: Fl.Functional.Utils.Functional.MakeEither<TL, TR>(TR, System.Func<TL>)
+  fullName.vb: Fl.Functional.Utils.Functional.MakeEither(Of TL, TR)(TR, System.Func(Of TL))
+  nameWithType: Functional.MakeEither<TL, TR>(TR, Func<TL>)
+  nameWithType.vb: Functional.MakeEither(Of TL, TR)(TR, Func(Of TL))
+- uid: Fl.Functional.Utils.Functional.MakeEither``2(``1,System.Predicate{``1},System.Func{``0})
+  name: MakeEither<TL, TR>(TR, Predicate<TR>, Func<TL>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MakeEither__2___1_System_Predicate___1__System_Func___0__
+  commentId: M:Fl.Functional.Utils.Functional.MakeEither``2(``1,System.Predicate{``1},System.Func{``0})
+  name.vb: MakeEither(Of TL, TR)(TR, Predicate(Of TR), Func(Of TL))
+  fullName: Fl.Functional.Utils.Functional.MakeEither<TL, TR>(TR, System.Predicate<TR>, System.Func<TL>)
+  fullName.vb: Fl.Functional.Utils.Functional.MakeEither(Of TL, TR)(TR, System.Predicate(Of TR), System.Func(Of TL))
+  nameWithType: Functional.MakeEither<TL, TR>(TR, Predicate<TR>, Func<TL>)
+  nameWithType.vb: Functional.MakeEither(Of TL, TR)(TR, Predicate(Of TR), Func(Of TL))
+- uid: Fl.Functional.Utils.Functional.MakeEither``2(``1,System.Predicate{``1},``0)
+  name: MakeEither<TL, TR>(TR, Predicate<TR>, TL)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MakeEither__2___1_System_Predicate___1____0_
+  commentId: M:Fl.Functional.Utils.Functional.MakeEither``2(``1,System.Predicate{``1},``0)
+  name.vb: MakeEither(Of TL, TR)(TR, Predicate(Of TR), TL)
+  fullName: Fl.Functional.Utils.Functional.MakeEither<TL, TR>(TR, System.Predicate<TR>, TL)
+  fullName.vb: Fl.Functional.Utils.Functional.MakeEither(Of TL, TR)(TR, System.Predicate(Of TR), TL)
+  nameWithType: Functional.MakeEither<TL, TR>(TR, Predicate<TR>, TL)
+  nameWithType.vb: Functional.MakeEither(Of TL, TR)(TR, Predicate(Of TR), TL)
+- uid: Fl.Functional.Utils.Functional.MakeEither``2(``1,``0)
+  name: MakeEither<TL, TR>(TR, TL)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MakeEither__2___1___0_
+  commentId: M:Fl.Functional.Utils.Functional.MakeEither``2(``1,``0)
+  name.vb: MakeEither(Of TL, TR)(TR, TL)
+  fullName: Fl.Functional.Utils.Functional.MakeEither<TL, TR>(TR, TL)
+  fullName.vb: Fl.Functional.Utils.Functional.MakeEither(Of TL, TR)(TR, TL)
+  nameWithType: Functional.MakeEither<TL, TR>(TR, TL)
+  nameWithType.vb: Functional.MakeEither(Of TL, TR)(TR, TL)
+- uid: Fl.Functional.Utils.Functional.MakeEither``3(``0,System.Func{``0,``1},System.Predicate{``0},System.Func{``0,``2})
+  name: MakeEither<T, TR, TL>(T, Func<T, TR>, Predicate<T>, Func<T, TL>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MakeEither__3___0_System_Func___0___1__System_Predicate___0__System_Func___0___2__
+  commentId: M:Fl.Functional.Utils.Functional.MakeEither``3(``0,System.Func{``0,``1},System.Predicate{``0},System.Func{``0,``2})
+  name.vb: MakeEither(Of T, TR, TL)(T, Func(Of T, TR), Predicate(Of T), Func(Of T, TL))
+  fullName: Fl.Functional.Utils.Functional.MakeEither<T, TR, TL>(T, System.Func<T, TR>, System.Predicate<T>, System.Func<T, TL>)
+  fullName.vb: Fl.Functional.Utils.Functional.MakeEither(Of T, TR, TL)(T, System.Func(Of T, TR), System.Predicate(Of T), System.Func(Of T, TL))
+  nameWithType: Functional.MakeEither<T, TR, TL>(T, Func<T, TR>, Predicate<T>, Func<T, TL>)
+  nameWithType.vb: Functional.MakeEither(Of T, TR, TL)(T, Func(Of T, TR), Predicate(Of T), Func(Of T, TL))
+- uid: Fl.Functional.Utils.Functional.MakeEither``3(``0,System.Func{``0,``1},System.Predicate{``0},System.Func{``2})
+  name: MakeEither<T, TR, TL>(T, Func<T, TR>, Predicate<T>, Func<TL>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MakeEither__3___0_System_Func___0___1__System_Predicate___0__System_Func___2__
+  commentId: M:Fl.Functional.Utils.Functional.MakeEither``3(``0,System.Func{``0,``1},System.Predicate{``0},System.Func{``2})
+  name.vb: MakeEither(Of T, TR, TL)(T, Func(Of T, TR), Predicate(Of T), Func(Of TL))
+  fullName: Fl.Functional.Utils.Functional.MakeEither<T, TR, TL>(T, System.Func<T, TR>, System.Predicate<T>, System.Func<TL>)
+  fullName.vb: Fl.Functional.Utils.Functional.MakeEither(Of T, TR, TL)(T, System.Func(Of T, TR), System.Predicate(Of T), System.Func(Of TL))
+  nameWithType: Functional.MakeEither<T, TR, TL>(T, Func<T, TR>, Predicate<T>, Func<TL>)
+  nameWithType.vb: Functional.MakeEither(Of T, TR, TL)(T, Func(Of T, TR), Predicate(Of T), Func(Of TL))
+- uid: Fl.Functional.Utils.Functional.MakeEither``3(``0,System.Func{``0,``1},System.Predicate{``0},``2)
+  name: MakeEither<TRInput, TROutput, TL>(TRInput, Func<TRInput, TROutput>, Predicate<TRInput>, TL)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MakeEither__3___0_System_Func___0___1__System_Predicate___0____2_
+  commentId: M:Fl.Functional.Utils.Functional.MakeEither``3(``0,System.Func{``0,``1},System.Predicate{``0},``2)
+  name.vb: MakeEither(Of TRInput, TROutput, TL)(TRInput, Func(Of TRInput, TROutput), Predicate(Of TRInput), TL)
+  fullName: Fl.Functional.Utils.Functional.MakeEither<TRInput, TROutput, TL>(TRInput, System.Func<TRInput, TROutput>, System.Predicate<TRInput>, TL)
+  fullName.vb: Fl.Functional.Utils.Functional.MakeEither(Of TRInput, TROutput, TL)(TRInput, System.Func(Of TRInput, TROutput), System.Predicate(Of TRInput), TL)
+  nameWithType: Functional.MakeEither<TRInput, TROutput, TL>(TRInput, Func<TRInput, TROutput>, Predicate<TRInput>, TL)
+  nameWithType.vb: Functional.MakeEither(Of TRInput, TROutput, TL)(TRInput, Func(Of TRInput, TROutput), Predicate(Of TRInput), TL)
+- uid: Fl.Functional.Utils.Functional.MakeOption*
+  name: MakeOption
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MakeOption_
+  commentId: Overload:Fl.Functional.Utils.Functional.MakeOption
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Functional.MakeOption
+  nameWithType: Functional.MakeOption
+- uid: Fl.Functional.Utils.Functional.MakeOptionAsync*
+  name: MakeOptionAsync
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MakeOptionAsync_
+  commentId: Overload:Fl.Functional.Utils.Functional.MakeOptionAsync
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Functional.MakeOptionAsync
+  nameWithType: Functional.MakeOptionAsync
+- uid: Fl.Functional.Utils.Functional.MakeOptionAsync``1(System.Threading.Tasks.Task{``0})
+  name: MakeOptionAsync<T>(Task<T>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MakeOptionAsync__1_System_Threading_Tasks_Task___0__
+  commentId: M:Fl.Functional.Utils.Functional.MakeOptionAsync``1(System.Threading.Tasks.Task{``0})
+  name.vb: MakeOptionAsync(Of T)(Task(Of T))
+  fullName: Fl.Functional.Utils.Functional.MakeOptionAsync<T>(System.Threading.Tasks.Task<T>)
+  fullName.vb: Fl.Functional.Utils.Functional.MakeOptionAsync(Of T)(System.Threading.Tasks.Task(Of T))
+  nameWithType: Functional.MakeOptionAsync<T>(Task<T>)
+  nameWithType.vb: Functional.MakeOptionAsync(Of T)(Task(Of T))
+- uid: Fl.Functional.Utils.Functional.MakeOptionAsync``1(System.Threading.Tasks.Task{``0},System.Predicate{``0})
+  name: MakeOptionAsync<T>(Task<T>, Predicate<T>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MakeOptionAsync__1_System_Threading_Tasks_Task___0__System_Predicate___0__
+  commentId: M:Fl.Functional.Utils.Functional.MakeOptionAsync``1(System.Threading.Tasks.Task{``0},System.Predicate{``0})
+  name.vb: MakeOptionAsync(Of T)(Task(Of T), Predicate(Of T))
+  fullName: Fl.Functional.Utils.Functional.MakeOptionAsync<T>(System.Threading.Tasks.Task<T>, System.Predicate<T>)
+  fullName.vb: Fl.Functional.Utils.Functional.MakeOptionAsync(Of T)(System.Threading.Tasks.Task(Of T), System.Predicate(Of T))
+  nameWithType: Functional.MakeOptionAsync<T>(Task<T>, Predicate<T>)
+  nameWithType.vb: Functional.MakeOptionAsync(Of T)(Task(Of T), Predicate(Of T))
+- uid: Fl.Functional.Utils.Functional.MakeOptionAsync``2(System.Threading.Tasks.Task{``0},System.Func{``0,``1},System.Predicate{``0})
+  name: MakeOptionAsync<TInput, TResult>(Task<TInput>, Func<TInput, TResult>, Predicate<TInput>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MakeOptionAsync__2_System_Threading_Tasks_Task___0__System_Func___0___1__System_Predicate___0__
+  commentId: M:Fl.Functional.Utils.Functional.MakeOptionAsync``2(System.Threading.Tasks.Task{``0},System.Func{``0,``1},System.Predicate{``0})
+  name.vb: MakeOptionAsync(Of TInput, TResult)(Task(Of TInput), Func(Of TInput, TResult), Predicate(Of TInput))
+  fullName: Fl.Functional.Utils.Functional.MakeOptionAsync<TInput, TResult>(System.Threading.Tasks.Task<TInput>, System.Func<TInput, TResult>, System.Predicate<TInput>)
+  fullName.vb: Fl.Functional.Utils.Functional.MakeOptionAsync(Of TInput, TResult)(System.Threading.Tasks.Task(Of TInput), System.Func(Of TInput, TResult), System.Predicate(Of TInput))
+  nameWithType: Functional.MakeOptionAsync<TInput, TResult>(Task<TInput>, Func<TInput, TResult>, Predicate<TInput>)
+  nameWithType.vb: Functional.MakeOptionAsync(Of TInput, TResult)(Task(Of TInput), Func(Of TInput, TResult), Predicate(Of TInput))
+- uid: Fl.Functional.Utils.Functional.MakeOption``1(``0)
+  name: MakeOption<T>(T)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MakeOption__1___0_
+  commentId: M:Fl.Functional.Utils.Functional.MakeOption``1(``0)
+  name.vb: MakeOption(Of T)(T)
+  fullName: Fl.Functional.Utils.Functional.MakeOption<T>(T)
+  fullName.vb: Fl.Functional.Utils.Functional.MakeOption(Of T)(T)
+  nameWithType: Functional.MakeOption<T>(T)
+  nameWithType.vb: Functional.MakeOption(Of T)(T)
+- uid: Fl.Functional.Utils.Functional.MakeOption``1(``0,System.Predicate{``0})
+  name: MakeOption<T>(T, Predicate<T>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MakeOption__1___0_System_Predicate___0__
+  commentId: M:Fl.Functional.Utils.Functional.MakeOption``1(``0,System.Predicate{``0})
+  name.vb: MakeOption(Of T)(T, Predicate(Of T))
+  fullName: Fl.Functional.Utils.Functional.MakeOption<T>(T, System.Predicate<T>)
+  fullName.vb: Fl.Functional.Utils.Functional.MakeOption(Of T)(T, System.Predicate(Of T))
+  nameWithType: Functional.MakeOption<T>(T, Predicate<T>)
+  nameWithType.vb: Functional.MakeOption(Of T)(T, Predicate(Of T))
+- uid: Fl.Functional.Utils.Functional.MakeOption``2(``0,System.Func{``0,``1},System.Predicate{``0})
+  name: MakeOption<TInput, TResult>(TInput, Func<TInput, TResult>, Predicate<TInput>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MakeOption__2___0_System_Func___0___1__System_Predicate___0__
+  commentId: M:Fl.Functional.Utils.Functional.MakeOption``2(``0,System.Func{``0,``1},System.Predicate{``0})
+  name.vb: MakeOption(Of TInput, TResult)(TInput, Func(Of TInput, TResult), Predicate(Of TInput))
+  fullName: Fl.Functional.Utils.Functional.MakeOption<TInput, TResult>(TInput, System.Func<TInput, TResult>, System.Predicate<TInput>)
+  fullName.vb: Fl.Functional.Utils.Functional.MakeOption(Of TInput, TResult)(TInput, System.Func(Of TInput, TResult), System.Predicate(Of TInput))
+  nameWithType: Functional.MakeOption<TInput, TResult>(TInput, Func<TInput, TResult>, Predicate<TInput>)
+  nameWithType.vb: Functional.MakeOption(Of TInput, TResult)(TInput, Func(Of TInput, TResult), Predicate(Of TInput))
+- uid: Fl.Functional.Utils.Functional.Map*
+  name: Map
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_Map_
+  commentId: Overload:Fl.Functional.Utils.Functional.Map
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Functional.Map
+  nameWithType: Functional.Map
+- uid: Fl.Functional.Utils.Functional.MapAsync*
+  name: MapAsync
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MapAsync_
+  commentId: Overload:Fl.Functional.Utils.Functional.MapAsync
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Functional.MapAsync
+  nameWithType: Functional.MapAsync
+- uid: Fl.Functional.Utils.Functional.MapAsync``2(System.Threading.Tasks.Task{``0},System.Func{``0,System.Threading.Tasks.Task{``1}})
+  name: MapAsync<TSource, TResult>(Task<TSource>, Func<TSource, Task<TResult>>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MapAsync__2_System_Threading_Tasks_Task___0__System_Func___0_System_Threading_Tasks_Task___1___
+  commentId: M:Fl.Functional.Utils.Functional.MapAsync``2(System.Threading.Tasks.Task{``0},System.Func{``0,System.Threading.Tasks.Task{``1}})
+  name.vb: MapAsync(Of TSource, TResult)(Task(Of TSource), Func(Of TSource, Task(Of TResult)))
+  fullName: Fl.Functional.Utils.Functional.MapAsync<TSource, TResult>(System.Threading.Tasks.Task<TSource>, System.Func<TSource, System.Threading.Tasks.Task<TResult>>)
+  fullName.vb: Fl.Functional.Utils.Functional.MapAsync(Of TSource, TResult)(System.Threading.Tasks.Task(Of TSource), System.Func(Of TSource, System.Threading.Tasks.Task(Of TResult)))
+  nameWithType: Functional.MapAsync<TSource, TResult>(Task<TSource>, Func<TSource, Task<TResult>>)
+  nameWithType.vb: Functional.MapAsync(Of TSource, TResult)(Task(Of TSource), Func(Of TSource, Task(Of TResult)))
+- uid: Fl.Functional.Utils.Functional.MapAsync``2(System.Threading.Tasks.Task{``0},System.Func{``0,``1})
+  name: MapAsync<TSource, TResult>(Task<TSource>, Func<TSource, TResult>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MapAsync__2_System_Threading_Tasks_Task___0__System_Func___0___1__
+  commentId: M:Fl.Functional.Utils.Functional.MapAsync``2(System.Threading.Tasks.Task{``0},System.Func{``0,``1})
+  name.vb: MapAsync(Of TSource, TResult)(Task(Of TSource), Func(Of TSource, TResult))
+  fullName: Fl.Functional.Utils.Functional.MapAsync<TSource, TResult>(System.Threading.Tasks.Task<TSource>, System.Func<TSource, TResult>)
+  fullName.vb: Fl.Functional.Utils.Functional.MapAsync(Of TSource, TResult)(System.Threading.Tasks.Task(Of TSource), System.Func(Of TSource, TResult))
+  nameWithType: Functional.MapAsync<TSource, TResult>(Task<TSource>, Func<TSource, TResult>)
+  nameWithType.vb: Functional.MapAsync(Of TSource, TResult)(Task(Of TSource), Func(Of TSource, TResult))
+- uid: Fl.Functional.Utils.Functional.MapAsync``2(``0,System.Func{``0,System.Threading.Tasks.Task{``1}})
+  name: MapAsync<TSource, TResult>(TSource, Func<TSource, Task<TResult>>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MapAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___
+  commentId: M:Fl.Functional.Utils.Functional.MapAsync``2(``0,System.Func{``0,System.Threading.Tasks.Task{``1}})
+  name.vb: MapAsync(Of TSource, TResult)(TSource, Func(Of TSource, Task(Of TResult)))
+  fullName: Fl.Functional.Utils.Functional.MapAsync<TSource, TResult>(TSource, System.Func<TSource, System.Threading.Tasks.Task<TResult>>)
+  fullName.vb: Fl.Functional.Utils.Functional.MapAsync(Of TSource, TResult)(TSource, System.Func(Of TSource, System.Threading.Tasks.Task(Of TResult)))
+  nameWithType: Functional.MapAsync<TSource, TResult>(TSource, Func<TSource, Task<TResult>>)
+  nameWithType.vb: Functional.MapAsync(Of TSource, TResult)(TSource, Func(Of TSource, Task(Of TResult)))
+- uid: Fl.Functional.Utils.Functional.MapLeftAsync*
+  name: MapLeftAsync
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MapLeftAsync_
+  commentId: Overload:Fl.Functional.Utils.Functional.MapLeftAsync
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Functional.MapLeftAsync
+  nameWithType: Functional.MapLeftAsync
+- uid: Fl.Functional.Utils.Functional.MapLeftAsync``3(System.Threading.Tasks.Task{LanguageExt.Either{``0,``1}},System.Func{``0,System.Threading.Tasks.Task{``2}})
+  name: MapLeftAsync<TL, TR, TMl>(Task<Either<TL, TR>>, Func<TL, Task<TMl>>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MapLeftAsync__3_System_Threading_Tasks_Task_LanguageExt_Either___0___1___System_Func___0_System_Threading_Tasks_Task___2___
+  commentId: M:Fl.Functional.Utils.Functional.MapLeftAsync``3(System.Threading.Tasks.Task{LanguageExt.Either{``0,``1}},System.Func{``0,System.Threading.Tasks.Task{``2}})
+  name.vb: MapLeftAsync(Of TL, TR, TMl)(Task(Of Either(Of TL, TR)), Func(Of TL, Task(Of TMl)))
+  fullName: Fl.Functional.Utils.Functional.MapLeftAsync<TL, TR, TMl>(System.Threading.Tasks.Task<LanguageExt.Either<TL, TR>>, System.Func<TL, System.Threading.Tasks.Task<TMl>>)
+  fullName.vb: Fl.Functional.Utils.Functional.MapLeftAsync(Of TL, TR, TMl)(System.Threading.Tasks.Task(Of LanguageExt.Either(Of TL, TR)), System.Func(Of TL, System.Threading.Tasks.Task(Of TMl)))
+  nameWithType: Functional.MapLeftAsync<TL, TR, TMl>(Task<Either<TL, TR>>, Func<TL, Task<TMl>>)
+  nameWithType.vb: Functional.MapLeftAsync(Of TL, TR, TMl)(Task(Of Either(Of TL, TR)), Func(Of TL, Task(Of TMl)))
+- uid: Fl.Functional.Utils.Functional.MapLeftAsync``3(System.Threading.Tasks.Task{LanguageExt.Either{``0,``1}},System.Func{``0,``2})
+  name: MapLeftAsync<TL, TR, TMl>(Task<Either<TL, TR>>, Func<TL, TMl>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MapLeftAsync__3_System_Threading_Tasks_Task_LanguageExt_Either___0___1___System_Func___0___2__
+  commentId: M:Fl.Functional.Utils.Functional.MapLeftAsync``3(System.Threading.Tasks.Task{LanguageExt.Either{``0,``1}},System.Func{``0,``2})
+  name.vb: MapLeftAsync(Of TL, TR, TMl)(Task(Of Either(Of TL, TR)), Func(Of TL, TMl))
+  fullName: Fl.Functional.Utils.Functional.MapLeftAsync<TL, TR, TMl>(System.Threading.Tasks.Task<LanguageExt.Either<TL, TR>>, System.Func<TL, TMl>)
+  fullName.vb: Fl.Functional.Utils.Functional.MapLeftAsync(Of TL, TR, TMl)(System.Threading.Tasks.Task(Of LanguageExt.Either(Of TL, TR)), System.Func(Of TL, TMl))
+  nameWithType: Functional.MapLeftAsync<TL, TR, TMl>(Task<Either<TL, TR>>, Func<TL, TMl>)
+  nameWithType.vb: Functional.MapLeftAsync(Of TL, TR, TMl)(Task(Of Either(Of TL, TR)), Func(Of TL, TMl))
+- uid: Fl.Functional.Utils.Functional.Map``2(``0,System.Func{``0,``1})
+  name: Map<TSource, TResult>(TSource, Func<TSource, TResult>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_Map__2___0_System_Func___0___1__
+  commentId: M:Fl.Functional.Utils.Functional.Map``2(``0,System.Func{``0,``1})
+  name.vb: Map(Of TSource, TResult)(TSource, Func(Of TSource, TResult))
+  fullName: Fl.Functional.Utils.Functional.Map<TSource, TResult>(TSource, System.Func<TSource, TResult>)
+  fullName.vb: Fl.Functional.Utils.Functional.Map(Of TSource, TResult)(TSource, System.Func(Of TSource, TResult))
+  nameWithType: Functional.Map<TSource, TResult>(TSource, Func<TSource, TResult>)
+  nameWithType.vb: Functional.Map(Of TSource, TResult)(TSource, Func(Of TSource, TResult))
+- uid: Fl.Functional.Utils.Functional.MatchAsync*
+  name: MatchAsync
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MatchAsync_
+  commentId: Overload:Fl.Functional.Utils.Functional.MatchAsync
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Functional.MatchAsync
+  nameWithType: Functional.MatchAsync
+- uid: Fl.Functional.Utils.Functional.MatchAsync``3(System.Threading.Tasks.Task{LanguageExt.Either{``0,``1}},System.Func{``1,System.Threading.Tasks.Task{``2}},System.Func{``0,System.Threading.Tasks.Task{``2}})
+  name: MatchAsync<TL, TR, TOutput>(Task<Either<TL, TR>>, Func<TR, Task<TOutput>>, Func<TL, Task<TOutput>>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MatchAsync__3_System_Threading_Tasks_Task_LanguageExt_Either___0___1___System_Func___1_System_Threading_Tasks_Task___2___System_Func___0_System_Threading_Tasks_Task___2___
+  commentId: M:Fl.Functional.Utils.Functional.MatchAsync``3(System.Threading.Tasks.Task{LanguageExt.Either{``0,``1}},System.Func{``1,System.Threading.Tasks.Task{``2}},System.Func{``0,System.Threading.Tasks.Task{``2}})
+  name.vb: MatchAsync(Of TL, TR, TOutput)(Task(Of Either(Of TL, TR)), Func(Of TR, Task(Of TOutput)), Func(Of TL, Task(Of TOutput)))
+  fullName: Fl.Functional.Utils.Functional.MatchAsync<TL, TR, TOutput>(System.Threading.Tasks.Task<LanguageExt.Either<TL, TR>>, System.Func<TR, System.Threading.Tasks.Task<TOutput>>, System.Func<TL, System.Threading.Tasks.Task<TOutput>>)
+  fullName.vb: Fl.Functional.Utils.Functional.MatchAsync(Of TL, TR, TOutput)(System.Threading.Tasks.Task(Of LanguageExt.Either(Of TL, TR)), System.Func(Of TR, System.Threading.Tasks.Task(Of TOutput)), System.Func(Of TL, System.Threading.Tasks.Task(Of TOutput)))
+  nameWithType: Functional.MatchAsync<TL, TR, TOutput>(Task<Either<TL, TR>>, Func<TR, Task<TOutput>>, Func<TL, Task<TOutput>>)
+  nameWithType.vb: Functional.MatchAsync(Of TL, TR, TOutput)(Task(Of Either(Of TL, TR)), Func(Of TR, Task(Of TOutput)), Func(Of TL, Task(Of TOutput)))
+- uid: Fl.Functional.Utils.Functional.MatchAsync``3(System.Threading.Tasks.Task{LanguageExt.Either{``0,``1}},System.Func{``1,System.Threading.Tasks.Task{``2}},System.Func{``0,``2})
+  name: MatchAsync<TL, TR, TOutput>(Task<Either<TL, TR>>, Func<TR, Task<TOutput>>, Func<TL, TOutput>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MatchAsync__3_System_Threading_Tasks_Task_LanguageExt_Either___0___1___System_Func___1_System_Threading_Tasks_Task___2___System_Func___0___2__
+  commentId: M:Fl.Functional.Utils.Functional.MatchAsync``3(System.Threading.Tasks.Task{LanguageExt.Either{``0,``1}},System.Func{``1,System.Threading.Tasks.Task{``2}},System.Func{``0,``2})
+  name.vb: MatchAsync(Of TL, TR, TOutput)(Task(Of Either(Of TL, TR)), Func(Of TR, Task(Of TOutput)), Func(Of TL, TOutput))
+  fullName: Fl.Functional.Utils.Functional.MatchAsync<TL, TR, TOutput>(System.Threading.Tasks.Task<LanguageExt.Either<TL, TR>>, System.Func<TR, System.Threading.Tasks.Task<TOutput>>, System.Func<TL, TOutput>)
+  fullName.vb: Fl.Functional.Utils.Functional.MatchAsync(Of TL, TR, TOutput)(System.Threading.Tasks.Task(Of LanguageExt.Either(Of TL, TR)), System.Func(Of TR, System.Threading.Tasks.Task(Of TOutput)), System.Func(Of TL, TOutput))
+  nameWithType: Functional.MatchAsync<TL, TR, TOutput>(Task<Either<TL, TR>>, Func<TR, Task<TOutput>>, Func<TL, TOutput>)
+  nameWithType.vb: Functional.MatchAsync(Of TL, TR, TOutput)(Task(Of Either(Of TL, TR)), Func(Of TR, Task(Of TOutput)), Func(Of TL, TOutput))
+- uid: Fl.Functional.Utils.Functional.MatchAsync``3(System.Threading.Tasks.Task{LanguageExt.Either{``0,``1}},System.Func{``1,``2},System.Func{``0,System.Threading.Tasks.Task{``2}})
+  name: MatchAsync<TL, TR, TOutput>(Task<Either<TL, TR>>, Func<TR, TOutput>, Func<TL, Task<TOutput>>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MatchAsync__3_System_Threading_Tasks_Task_LanguageExt_Either___0___1___System_Func___1___2__System_Func___0_System_Threading_Tasks_Task___2___
+  commentId: M:Fl.Functional.Utils.Functional.MatchAsync``3(System.Threading.Tasks.Task{LanguageExt.Either{``0,``1}},System.Func{``1,``2},System.Func{``0,System.Threading.Tasks.Task{``2}})
+  name.vb: MatchAsync(Of TL, TR, TOutput)(Task(Of Either(Of TL, TR)), Func(Of TR, TOutput), Func(Of TL, Task(Of TOutput)))
+  fullName: Fl.Functional.Utils.Functional.MatchAsync<TL, TR, TOutput>(System.Threading.Tasks.Task<LanguageExt.Either<TL, TR>>, System.Func<TR, TOutput>, System.Func<TL, System.Threading.Tasks.Task<TOutput>>)
+  fullName.vb: Fl.Functional.Utils.Functional.MatchAsync(Of TL, TR, TOutput)(System.Threading.Tasks.Task(Of LanguageExt.Either(Of TL, TR)), System.Func(Of TR, TOutput), System.Func(Of TL, System.Threading.Tasks.Task(Of TOutput)))
+  nameWithType: Functional.MatchAsync<TL, TR, TOutput>(Task<Either<TL, TR>>, Func<TR, TOutput>, Func<TL, Task<TOutput>>)
+  nameWithType.vb: Functional.MatchAsync(Of TL, TR, TOutput)(Task(Of Either(Of TL, TR)), Func(Of TR, TOutput), Func(Of TL, Task(Of TOutput)))
+- uid: Fl.Functional.Utils.Functional.MatchAsync``3(System.Threading.Tasks.Task{LanguageExt.Either{``0,``1}},System.Func{``1,``2},System.Func{``0,``2})
+  name: MatchAsync<TL, TR, TOutput>(Task<Either<TL, TR>>, Func<TR, TOutput>, Func<TL, TOutput>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MatchAsync__3_System_Threading_Tasks_Task_LanguageExt_Either___0___1___System_Func___1___2__System_Func___0___2__
+  commentId: M:Fl.Functional.Utils.Functional.MatchAsync``3(System.Threading.Tasks.Task{LanguageExt.Either{``0,``1}},System.Func{``1,``2},System.Func{``0,``2})
+  name.vb: MatchAsync(Of TL, TR, TOutput)(Task(Of Either(Of TL, TR)), Func(Of TR, TOutput), Func(Of TL, TOutput))
+  fullName: Fl.Functional.Utils.Functional.MatchAsync<TL, TR, TOutput>(System.Threading.Tasks.Task<LanguageExt.Either<TL, TR>>, System.Func<TR, TOutput>, System.Func<TL, TOutput>)
+  fullName.vb: Fl.Functional.Utils.Functional.MatchAsync(Of TL, TR, TOutput)(System.Threading.Tasks.Task(Of LanguageExt.Either(Of TL, TR)), System.Func(Of TR, TOutput), System.Func(Of TL, TOutput))
+  nameWithType: Functional.MatchAsync<TL, TR, TOutput>(Task<Either<TL, TR>>, Func<TR, TOutput>, Func<TL, TOutput>)
+  nameWithType.vb: Functional.MatchAsync(Of TL, TR, TOutput)(Task(Of Either(Of TL, TR)), Func(Of TR, TOutput), Func(Of TL, TOutput))
+- uid: Fl.Functional.Utils.Functional.MatchUnsafeAsync*
+  name: MatchUnsafeAsync
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MatchUnsafeAsync_
+  commentId: Overload:Fl.Functional.Utils.Functional.MatchUnsafeAsync
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Functional.MatchUnsafeAsync
+  nameWithType: Functional.MatchUnsafeAsync
+- uid: Fl.Functional.Utils.Functional.MatchUnsafeAsync``3(System.Threading.Tasks.Task{LanguageExt.Either{``0,``1}},System.Func{``1,``2},System.Func{``0,``2})
+  name: MatchUnsafeAsync<TL, TR, TOutput>(Task<Either<TL, TR>>, Func<TR, TOutput>, Func<TL, TOutput>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_MatchUnsafeAsync__3_System_Threading_Tasks_Task_LanguageExt_Either___0___1___System_Func___1___2__System_Func___0___2__
+  commentId: M:Fl.Functional.Utils.Functional.MatchUnsafeAsync``3(System.Threading.Tasks.Task{LanguageExt.Either{``0,``1}},System.Func{``1,``2},System.Func{``0,``2})
+  name.vb: MatchUnsafeAsync(Of TL, TR, TOutput)(Task(Of Either(Of TL, TR)), Func(Of TR, TOutput), Func(Of TL, TOutput))
+  fullName: Fl.Functional.Utils.Functional.MatchUnsafeAsync<TL, TR, TOutput>(System.Threading.Tasks.Task<LanguageExt.Either<TL, TR>>, System.Func<TR, TOutput>, System.Func<TL, TOutput>)
+  fullName.vb: Fl.Functional.Utils.Functional.MatchUnsafeAsync(Of TL, TR, TOutput)(System.Threading.Tasks.Task(Of LanguageExt.Either(Of TL, TR)), System.Func(Of TR, TOutput), System.Func(Of TL, TOutput))
+  nameWithType: Functional.MatchUnsafeAsync<TL, TR, TOutput>(Task<Either<TL, TR>>, Func<TR, TOutput>, Func<TL, TOutput>)
+  nameWithType.vb: Functional.MatchUnsafeAsync(Of TL, TR, TOutput)(Task(Of Either(Of TL, TR)), Func(Of TR, TOutput), Func(Of TL, TOutput))
+- uid: Fl.Functional.Utils.Functional.OrElse*
+  name: OrElse
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_OrElse_
+  commentId: Overload:Fl.Functional.Utils.Functional.OrElse
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Functional.OrElse
+  nameWithType: Functional.OrElse
+- uid: Fl.Functional.Utils.Functional.OrElse``1(LanguageExt.Option{``0},``0)
+  name: OrElse<T>(Option<T>, T)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_OrElse__1_LanguageExt_Option___0____0_
+  commentId: M:Fl.Functional.Utils.Functional.OrElse``1(LanguageExt.Option{``0},``0)
+  name.vb: OrElse(Of T)(Option(Of T), T)
+  fullName: Fl.Functional.Utils.Functional.OrElse<T>(LanguageExt.Option<T>, T)
+  fullName.vb: Fl.Functional.Utils.Functional.OrElse(Of T)(LanguageExt.Option(Of T), T)
+  nameWithType: Functional.OrElse<T>(Option<T>, T)
+  nameWithType.vb: Functional.OrElse(Of T)(Option(Of T), T)
+- uid: Fl.Functional.Utils.Functional.SameMap*
+  name: SameMap
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_SameMap_
+  commentId: Overload:Fl.Functional.Utils.Functional.SameMap
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Functional.SameMap
+  nameWithType: Functional.SameMap
+- uid: Fl.Functional.Utils.Functional.SameMap``2(System.ValueTuple{``0,``0},System.Func{``0,``1})
+  name: SameMap<TSource, TResult>((TSource, TSource), Func<TSource, TResult>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_SameMap__2_System_ValueTuple___0___0__System_Func___0___1__
+  commentId: M:Fl.Functional.Utils.Functional.SameMap``2(System.ValueTuple{``0,``0},System.Func{``0,``1})
+  name.vb: SameMap(Of TSource, TResult)((TSource, TSource), Func(Of TSource, TResult))
+  fullName: Fl.Functional.Utils.Functional.SameMap<TSource, TResult>((TSource, TSource), System.Func<TSource, TResult>)
+  fullName.vb: Fl.Functional.Utils.Functional.SameMap(Of TSource, TResult)((TSource, TSource), System.Func(Of TSource, TResult))
+  nameWithType: Functional.SameMap<TSource, TResult>((TSource, TSource), Func<TSource, TResult>)
+  nameWithType.vb: Functional.SameMap(Of TSource, TResult)((TSource, TSource), Func(Of TSource, TResult))
+- uid: Fl.Functional.Utils.Functional.Tee*
+  name: Tee
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_Tee_
+  commentId: Overload:Fl.Functional.Utils.Functional.Tee
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Functional.Tee
+  nameWithType: Functional.Tee
+- uid: Fl.Functional.Utils.Functional.TeeWhen*
+  name: TeeWhen
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_TeeWhen_
+  commentId: Overload:Fl.Functional.Utils.Functional.TeeWhen
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Functional.TeeWhen
+  nameWithType: Functional.TeeWhen
+- uid: Fl.Functional.Utils.Functional.TeeWhenAsync*
+  name: TeeWhenAsync
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_TeeWhenAsync_
+  commentId: Overload:Fl.Functional.Utils.Functional.TeeWhenAsync
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Functional.TeeWhenAsync
+  nameWithType: Functional.TeeWhenAsync
+- uid: Fl.Functional.Utils.Functional.TeeWhenAsync``1(System.Threading.Tasks.Task{``0},System.Func{``0,System.Threading.Tasks.Task},System.Func{``0,System.Boolean})
+  name: TeeWhenAsync<T>(Task<T>, Func<T, Task>, Func<T, bool>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_TeeWhenAsync__1_System_Threading_Tasks_Task___0__System_Func___0_System_Threading_Tasks_Task__System_Func___0_System_Boolean__
+  commentId: M:Fl.Functional.Utils.Functional.TeeWhenAsync``1(System.Threading.Tasks.Task{``0},System.Func{``0,System.Threading.Tasks.Task},System.Func{``0,System.Boolean})
+  name.vb: TeeWhenAsync(Of T)(Task(Of T), Func(Of T, Task), Func(Of T, Boolean))
+  fullName: Fl.Functional.Utils.Functional.TeeWhenAsync<T>(System.Threading.Tasks.Task<T>, System.Func<T, System.Threading.Tasks.Task>, System.Func<T, bool>)
+  fullName.vb: Fl.Functional.Utils.Functional.TeeWhenAsync(Of T)(System.Threading.Tasks.Task(Of T), System.Func(Of T, System.Threading.Tasks.Task), System.Func(Of T, Boolean))
+  nameWithType: Functional.TeeWhenAsync<T>(Task<T>, Func<T, Task>, Func<T, bool>)
+  nameWithType.vb: Functional.TeeWhenAsync(Of T)(Task(Of T), Func(Of T, Task), Func(Of T, Boolean))
+- uid: Fl.Functional.Utils.Functional.TeeWhenAsync``1(``0,System.Func{``0,System.Threading.Tasks.Task{``0}},System.Func{``0,System.Boolean})
+  name: TeeWhenAsync<T>(T, Func<T, Task<T>>, Func<T, bool>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_TeeWhenAsync__1___0_System_Func___0_System_Threading_Tasks_Task___0___System_Func___0_System_Boolean__
+  commentId: M:Fl.Functional.Utils.Functional.TeeWhenAsync``1(``0,System.Func{``0,System.Threading.Tasks.Task{``0}},System.Func{``0,System.Boolean})
+  name.vb: TeeWhenAsync(Of T)(T, Func(Of T, Task(Of T)), Func(Of T, Boolean))
+  fullName: Fl.Functional.Utils.Functional.TeeWhenAsync<T>(T, System.Func<T, System.Threading.Tasks.Task<T>>, System.Func<T, bool>)
+  fullName.vb: Fl.Functional.Utils.Functional.TeeWhenAsync(Of T)(T, System.Func(Of T, System.Threading.Tasks.Task(Of T)), System.Func(Of T, Boolean))
+  nameWithType: Functional.TeeWhenAsync<T>(T, Func<T, Task<T>>, Func<T, bool>)
+  nameWithType.vb: Functional.TeeWhenAsync(Of T)(T, Func(Of T, Task(Of T)), Func(Of T, Boolean))
+- uid: Fl.Functional.Utils.Functional.TeeWhenAsync``1(``0,System.Func{``0,System.Threading.Tasks.Task},System.Boolean)
+  name: TeeWhenAsync<T>(T, Func<T, Task>, bool)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_TeeWhenAsync__1___0_System_Func___0_System_Threading_Tasks_Task__System_Boolean_
+  commentId: M:Fl.Functional.Utils.Functional.TeeWhenAsync``1(``0,System.Func{``0,System.Threading.Tasks.Task},System.Boolean)
+  name.vb: TeeWhenAsync(Of T)(T, Func(Of T, Task), Boolean)
+  fullName: Fl.Functional.Utils.Functional.TeeWhenAsync<T>(T, System.Func<T, System.Threading.Tasks.Task>, bool)
+  fullName.vb: Fl.Functional.Utils.Functional.TeeWhenAsync(Of T)(T, System.Func(Of T, System.Threading.Tasks.Task), Boolean)
+  nameWithType: Functional.TeeWhenAsync<T>(T, Func<T, Task>, bool)
+  nameWithType.vb: Functional.TeeWhenAsync(Of T)(T, Func(Of T, Task), Boolean)
+- uid: Fl.Functional.Utils.Functional.TeeWhenAsync``1(``0,System.Func{``0,System.Threading.Tasks.Task},System.Func{``0,System.Boolean})
+  name: TeeWhenAsync<T>(T, Func<T, Task>, Func<T, bool>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_TeeWhenAsync__1___0_System_Func___0_System_Threading_Tasks_Task__System_Func___0_System_Boolean__
+  commentId: M:Fl.Functional.Utils.Functional.TeeWhenAsync``1(``0,System.Func{``0,System.Threading.Tasks.Task},System.Func{``0,System.Boolean})
+  name.vb: TeeWhenAsync(Of T)(T, Func(Of T, Task), Func(Of T, Boolean))
+  fullName: Fl.Functional.Utils.Functional.TeeWhenAsync<T>(T, System.Func<T, System.Threading.Tasks.Task>, System.Func<T, bool>)
+  fullName.vb: Fl.Functional.Utils.Functional.TeeWhenAsync(Of T)(T, System.Func(Of T, System.Threading.Tasks.Task), System.Func(Of T, Boolean))
+  nameWithType: Functional.TeeWhenAsync<T>(T, Func<T, Task>, Func<T, bool>)
+  nameWithType.vb: Functional.TeeWhenAsync(Of T)(T, Func(Of T, Task), Func(Of T, Boolean))
+- uid: Fl.Functional.Utils.Functional.TeeWhen``1(``0,System.Action{``0},System.Func{System.Boolean})
+  name: TeeWhen<T>(T, Action<T>, Func<bool>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_TeeWhen__1___0_System_Action___0__System_Func_System_Boolean__
+  commentId: M:Fl.Functional.Utils.Functional.TeeWhen``1(``0,System.Action{``0},System.Func{System.Boolean})
+  name.vb: TeeWhen(Of T)(T, Action(Of T), Func(Of Boolean))
+  fullName: Fl.Functional.Utils.Functional.TeeWhen<T>(T, System.Action<T>, System.Func<bool>)
+  fullName.vb: Fl.Functional.Utils.Functional.TeeWhen(Of T)(T, System.Action(Of T), System.Func(Of Boolean))
+  nameWithType: Functional.TeeWhen<T>(T, Action<T>, Func<bool>)
+  nameWithType.vb: Functional.TeeWhen(Of T)(T, Action(Of T), Func(Of Boolean))
+- uid: Fl.Functional.Utils.Functional.TeeWhen``1(``0,System.Func{``0,``0},System.Boolean)
+  name: TeeWhen<T>(T, Func<T, T>, bool)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_TeeWhen__1___0_System_Func___0___0__System_Boolean_
+  commentId: M:Fl.Functional.Utils.Functional.TeeWhen``1(``0,System.Func{``0,``0},System.Boolean)
+  name.vb: TeeWhen(Of T)(T, Func(Of T, T), Boolean)
+  fullName: Fl.Functional.Utils.Functional.TeeWhen<T>(T, System.Func<T, T>, bool)
+  fullName.vb: Fl.Functional.Utils.Functional.TeeWhen(Of T)(T, System.Func(Of T, T), Boolean)
+  nameWithType: Functional.TeeWhen<T>(T, Func<T, T>, bool)
+  nameWithType.vb: Functional.TeeWhen(Of T)(T, Func(Of T, T), Boolean)
+- uid: Fl.Functional.Utils.Functional.TeeWhen``1(``0,System.Func{``0,``0},System.Func{System.Boolean})
+  name: TeeWhen<T>(T, Func<T, T>, Func<bool>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_TeeWhen__1___0_System_Func___0___0__System_Func_System_Boolean__
+  commentId: M:Fl.Functional.Utils.Functional.TeeWhen``1(``0,System.Func{``0,``0},System.Func{System.Boolean})
+  name.vb: TeeWhen(Of T)(T, Func(Of T, T), Func(Of Boolean))
+  fullName: Fl.Functional.Utils.Functional.TeeWhen<T>(T, System.Func<T, T>, System.Func<bool>)
+  fullName.vb: Fl.Functional.Utils.Functional.TeeWhen(Of T)(T, System.Func(Of T, T), System.Func(Of Boolean))
+  nameWithType: Functional.TeeWhen<T>(T, Func<T, T>, Func<bool>)
+  nameWithType.vb: Functional.TeeWhen(Of T)(T, Func(Of T, T), Func(Of Boolean))
+- uid: Fl.Functional.Utils.Functional.TeeWhen``1(``0,System.Func{``0,``0},System.Func{``0,System.Boolean})
+  name: TeeWhen<T>(T, Func<T, T>, Func<T, bool>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_TeeWhen__1___0_System_Func___0___0__System_Func___0_System_Boolean__
+  commentId: M:Fl.Functional.Utils.Functional.TeeWhen``1(``0,System.Func{``0,``0},System.Func{``0,System.Boolean})
+  name.vb: TeeWhen(Of T)(T, Func(Of T, T), Func(Of T, Boolean))
+  fullName: Fl.Functional.Utils.Functional.TeeWhen<T>(T, System.Func<T, T>, System.Func<T, bool>)
+  fullName.vb: Fl.Functional.Utils.Functional.TeeWhen(Of T)(T, System.Func(Of T, T), System.Func(Of T, Boolean))
+  nameWithType: Functional.TeeWhen<T>(T, Func<T, T>, Func<T, bool>)
+  nameWithType.vb: Functional.TeeWhen(Of T)(T, Func(Of T, T), Func(Of T, Boolean))
+- uid: Fl.Functional.Utils.Functional.Tee``1(``0,System.Action)
+  name: Tee<T>(T, Action)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_Tee__1___0_System_Action_
+  commentId: M:Fl.Functional.Utils.Functional.Tee``1(``0,System.Action)
+  name.vb: Tee(Of T)(T, Action)
+  fullName: Fl.Functional.Utils.Functional.Tee<T>(T, System.Action)
+  fullName.vb: Fl.Functional.Utils.Functional.Tee(Of T)(T, System.Action)
+  nameWithType: Functional.Tee<T>(T, Action)
+  nameWithType.vb: Functional.Tee(Of T)(T, Action)
+- uid: Fl.Functional.Utils.Functional.Tee``1(``0,System.Action{``0})
+  name: Tee<T>(T, Action<T>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_Tee__1___0_System_Action___0__
+  commentId: M:Fl.Functional.Utils.Functional.Tee``1(``0,System.Action{``0})
+  name.vb: Tee(Of T)(T, Action(Of T))
+  fullName: Fl.Functional.Utils.Functional.Tee<T>(T, System.Action<T>)
+  fullName.vb: Fl.Functional.Utils.Functional.Tee(Of T)(T, System.Action(Of T))
+  nameWithType: Functional.Tee<T>(T, Action<T>)
+  nameWithType.vb: Functional.Tee(Of T)(T, Action(Of T))
+- uid: Fl.Functional.Utils.Functional.Tee``1(``0,System.Func{``0,``0})
+  name: Tee<T>(T, Func<T, T>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_Tee__1___0_System_Func___0___0__
+  commentId: M:Fl.Functional.Utils.Functional.Tee``1(``0,System.Func{``0,``0})
+  name.vb: Tee(Of T)(T, Func(Of T, T))
+  fullName: Fl.Functional.Utils.Functional.Tee<T>(T, System.Func<T, T>)
+  fullName.vb: Fl.Functional.Utils.Functional.Tee(Of T)(T, System.Func(Of T, T))
+  nameWithType: Functional.Tee<T>(T, Func<T, T>)
+  nameWithType.vb: Functional.Tee(Of T)(T, Func(Of T, T))
+- uid: Fl.Functional.Utils.Functional.Using*
+  name: Using
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_Using_
+  commentId: Overload:Fl.Functional.Utils.Functional.Using
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Functional.Using
+  nameWithType: Functional.Using
+- uid: Fl.Functional.Utils.Functional.UsingAsync*
+  name: UsingAsync
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_UsingAsync_
+  commentId: Overload:Fl.Functional.Utils.Functional.UsingAsync
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Functional.UsingAsync
+  nameWithType: Functional.UsingAsync
+- uid: Fl.Functional.Utils.Functional.UsingAsync``1(``0,System.Func{``0,System.Threading.Tasks.Task})
+  name: UsingAsync<TD>(TD, Func<TD, Task>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_UsingAsync__1___0_System_Func___0_System_Threading_Tasks_Task__
+  commentId: M:Fl.Functional.Utils.Functional.UsingAsync``1(``0,System.Func{``0,System.Threading.Tasks.Task})
+  name.vb: UsingAsync(Of TD)(TD, Func(Of TD, Task))
+  fullName: Fl.Functional.Utils.Functional.UsingAsync<TD>(TD, System.Func<TD, System.Threading.Tasks.Task>)
+  fullName.vb: Fl.Functional.Utils.Functional.UsingAsync(Of TD)(TD, System.Func(Of TD, System.Threading.Tasks.Task))
+  nameWithType: Functional.UsingAsync<TD>(TD, Func<TD, Task>)
+  nameWithType.vb: Functional.UsingAsync(Of TD)(TD, Func(Of TD, Task))
+- uid: Fl.Functional.Utils.Functional.UsingAsync``2(``0,System.Func{``0,System.Threading.Tasks.Task{``1}})
+  name: UsingAsync<TD, T>(TD, Func<TD, Task<T>>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_UsingAsync__2___0_System_Func___0_System_Threading_Tasks_Task___1___
+  commentId: M:Fl.Functional.Utils.Functional.UsingAsync``2(``0,System.Func{``0,System.Threading.Tasks.Task{``1}})
+  name.vb: UsingAsync(Of TD, T)(TD, Func(Of TD, Task(Of T)))
+  fullName: Fl.Functional.Utils.Functional.UsingAsync<TD, T>(TD, System.Func<TD, System.Threading.Tasks.Task<T>>)
+  fullName.vb: Fl.Functional.Utils.Functional.UsingAsync(Of TD, T)(TD, System.Func(Of TD, System.Threading.Tasks.Task(Of T)))
+  nameWithType: Functional.UsingAsync<TD, T>(TD, Func<TD, Task<T>>)
+  nameWithType.vb: Functional.UsingAsync(Of TD, T)(TD, Func(Of TD, Task(Of T)))
+- uid: Fl.Functional.Utils.Functional.UsingAsync``2(``0,System.Func{``0,``1},System.Func{``0,``1,System.Threading.Tasks.Task})
+  name: UsingAsync<TD1, TD2>(TD1, Func<TD1, TD2>, Func<TD1, TD2, Task>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_UsingAsync__2___0_System_Func___0___1__System_Func___0___1_System_Threading_Tasks_Task__
+  commentId: M:Fl.Functional.Utils.Functional.UsingAsync``2(``0,System.Func{``0,``1},System.Func{``0,``1,System.Threading.Tasks.Task})
+  name.vb: UsingAsync(Of TD1, TD2)(TD1, Func(Of TD1, TD2), Func(Of TD1, TD2, Task))
+  fullName: Fl.Functional.Utils.Functional.UsingAsync<TD1, TD2>(TD1, System.Func<TD1, TD2>, System.Func<TD1, TD2, System.Threading.Tasks.Task>)
+  fullName.vb: Fl.Functional.Utils.Functional.UsingAsync(Of TD1, TD2)(TD1, System.Func(Of TD1, TD2), System.Func(Of TD1, TD2, System.Threading.Tasks.Task))
+  nameWithType: Functional.UsingAsync<TD1, TD2>(TD1, Func<TD1, TD2>, Func<TD1, TD2, Task>)
+  nameWithType.vb: Functional.UsingAsync(Of TD1, TD2)(TD1, Func(Of TD1, TD2), Func(Of TD1, TD2, Task))
+- uid: Fl.Functional.Utils.Functional.UsingAsync``3(``0,System.Func{``0,``1},System.Func{``0,``1,System.Threading.Tasks.Task{``2}})
+  name: UsingAsync<TD1, TD2, T>(TD1, Func<TD1, TD2>, Func<TD1, TD2, Task<T>>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_UsingAsync__3___0_System_Func___0___1__System_Func___0___1_System_Threading_Tasks_Task___2___
+  commentId: M:Fl.Functional.Utils.Functional.UsingAsync``3(``0,System.Func{``0,``1},System.Func{``0,``1,System.Threading.Tasks.Task{``2}})
+  name.vb: UsingAsync(Of TD1, TD2, T)(TD1, Func(Of TD1, TD2), Func(Of TD1, TD2, Task(Of T)))
+  fullName: Fl.Functional.Utils.Functional.UsingAsync<TD1, TD2, T>(TD1, System.Func<TD1, TD2>, System.Func<TD1, TD2, System.Threading.Tasks.Task<T>>)
+  fullName.vb: Fl.Functional.Utils.Functional.UsingAsync(Of TD1, TD2, T)(TD1, System.Func(Of TD1, TD2), System.Func(Of TD1, TD2, System.Threading.Tasks.Task(Of T)))
+  nameWithType: Functional.UsingAsync<TD1, TD2, T>(TD1, Func<TD1, TD2>, Func<TD1, TD2, Task<T>>)
+  nameWithType.vb: Functional.UsingAsync(Of TD1, TD2, T)(TD1, Func(Of TD1, TD2), Func(Of TD1, TD2, Task(Of T)))
+- uid: Fl.Functional.Utils.Functional.Using``1(``0,System.Action{``0})
+  name: Using<TD>(TD, Action<TD>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_Using__1___0_System_Action___0__
+  commentId: M:Fl.Functional.Utils.Functional.Using``1(``0,System.Action{``0})
+  name.vb: Using(Of TD)(TD, Action(Of TD))
+  fullName: Fl.Functional.Utils.Functional.Using<TD>(TD, System.Action<TD>)
+  fullName.vb: Fl.Functional.Utils.Functional.Using(Of TD)(TD, System.Action(Of TD))
+  nameWithType: Functional.Using<TD>(TD, Action<TD>)
+  nameWithType.vb: Functional.Using(Of TD)(TD, Action(Of TD))
+- uid: Fl.Functional.Utils.Functional.Using``2(``0,System.Func{``0,``1})
+  name: Using<TD, T>(TD, Func<TD, T>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_Using__2___0_System_Func___0___1__
+  commentId: M:Fl.Functional.Utils.Functional.Using``2(``0,System.Func{``0,``1})
+  name.vb: Using(Of TD, T)(TD, Func(Of TD, T))
+  fullName: Fl.Functional.Utils.Functional.Using<TD, T>(TD, System.Func<TD, T>)
+  fullName.vb: Fl.Functional.Utils.Functional.Using(Of TD, T)(TD, System.Func(Of TD, T))
+  nameWithType: Functional.Using<TD, T>(TD, Func<TD, T>)
+  nameWithType.vb: Functional.Using(Of TD, T)(TD, Func(Of TD, T))
+- uid: Fl.Functional.Utils.Functional.Using``2(``0,System.Func{``0,``1},System.Action{``0,``1})
+  name: Using<TD1, TD2>(TD1, Func<TD1, TD2>, Action<TD1, TD2>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_Using__2___0_System_Func___0___1__System_Action___0___1__
+  commentId: M:Fl.Functional.Utils.Functional.Using``2(``0,System.Func{``0,``1},System.Action{``0,``1})
+  name.vb: Using(Of TD1, TD2)(TD1, Func(Of TD1, TD2), Action(Of TD1, TD2))
+  fullName: Fl.Functional.Utils.Functional.Using<TD1, TD2>(TD1, System.Func<TD1, TD2>, System.Action<TD1, TD2>)
+  fullName.vb: Fl.Functional.Utils.Functional.Using(Of TD1, TD2)(TD1, System.Func(Of TD1, TD2), System.Action(Of TD1, TD2))
+  nameWithType: Functional.Using<TD1, TD2>(TD1, Func<TD1, TD2>, Action<TD1, TD2>)
+  nameWithType.vb: Functional.Using(Of TD1, TD2)(TD1, Func(Of TD1, TD2), Action(Of TD1, TD2))
+- uid: Fl.Functional.Utils.Functional.Using``3(``0,System.Func{``0,``1},System.Func{``0,``1,``2})
+  name: Using<TD1, TD2, T>(TD1, Func<TD1, TD2>, Func<TD1, TD2, T>)
+  href: api/Fl.Functional.Utils.Functional.html#Fl_Functional_Utils_Functional_Using__3___0_System_Func___0___1__System_Func___0___1___2__
+  commentId: M:Fl.Functional.Utils.Functional.Using``3(``0,System.Func{``0,``1},System.Func{``0,``1,``2})
+  name.vb: Using(Of TD1, TD2, T)(TD1, Func(Of TD1, TD2), Func(Of TD1, TD2, T))
+  fullName: Fl.Functional.Utils.Functional.Using<TD1, TD2, T>(TD1, System.Func<TD1, TD2>, System.Func<TD1, TD2, T>)
+  fullName.vb: Fl.Functional.Utils.Functional.Using(Of TD1, TD2, T)(TD1, System.Func(Of TD1, TD2), System.Func(Of TD1, TD2, T))
+  nameWithType: Functional.Using<TD1, TD2, T>(TD1, Func<TD1, TD2>, Func<TD1, TD2, T>)
+  nameWithType.vb: Functional.Using(Of TD1, TD2, T)(TD1, Func(Of TD1, TD2), Func(Of TD1, TD2, T))
+- uid: Fl.Functional.Utils.Recursion
+  name: Fl.Functional.Utils.Recursion
+  href: api/Fl.Functional.Utils.Recursion.html
+  commentId: N:Fl.Functional.Utils.Recursion
+  fullName: Fl.Functional.Utils.Recursion
+  nameWithType: Fl.Functional.Utils.Recursion
+- uid: Fl.Functional.Utils.Recursion.RecursionResult`1
+  name: RecursionResult<T>
+  href: api/Fl.Functional.Utils.Recursion.RecursionResult-1.html
+  commentId: T:Fl.Functional.Utils.Recursion.RecursionResult`1
+  name.vb: RecursionResult(Of T)
+  fullName: Fl.Functional.Utils.Recursion.RecursionResult<T>
+  fullName.vb: Fl.Functional.Utils.Recursion.RecursionResult(Of T)
+  nameWithType: RecursionResult<T>
+  nameWithType.vb: RecursionResult(Of T)
+- uid: Fl.Functional.Utils.Recursion.RecursionResult`1.CreateLast(`0,System.Func{Fl.Functional.Utils.Recursion.RecursionResult{`0}})
+  name: CreateLast(T, Func<RecursionResult<T>>)
+  href: api/Fl.Functional.Utils.Recursion.RecursionResult-1.html#Fl_Functional_Utils_Recursion_RecursionResult_1_CreateLast__0_System_Func_Fl_Functional_Utils_Recursion_RecursionResult__0___
+  commentId: M:Fl.Functional.Utils.Recursion.RecursionResult`1.CreateLast(`0,System.Func{Fl.Functional.Utils.Recursion.RecursionResult{`0}})
+  name.vb: CreateLast(T, Func(Of RecursionResult(Of T)))
+  fullName: Fl.Functional.Utils.Recursion.RecursionResult<T>.CreateLast(T, System.Func<Fl.Functional.Utils.Recursion.RecursionResult<T>>)
+  fullName.vb: Fl.Functional.Utils.Recursion.RecursionResult(Of T).CreateLast(T, System.Func(Of Fl.Functional.Utils.Recursion.RecursionResult(Of T)))
+  nameWithType: RecursionResult<T>.CreateLast(T, Func<RecursionResult<T>>)
+  nameWithType.vb: RecursionResult(Of T).CreateLast(T, Func(Of RecursionResult(Of T)))
+- uid: Fl.Functional.Utils.Recursion.RecursionResult`1.CreateLast*
+  name: CreateLast
+  href: api/Fl.Functional.Utils.Recursion.RecursionResult-1.html#Fl_Functional_Utils_Recursion_RecursionResult_1_CreateLast_
+  commentId: Overload:Fl.Functional.Utils.Recursion.RecursionResult`1.CreateLast
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Recursion.RecursionResult<T>.CreateLast
+  fullName.vb: Fl.Functional.Utils.Recursion.RecursionResult(Of T).CreateLast
+  nameWithType: RecursionResult<T>.CreateLast
+  nameWithType.vb: RecursionResult(Of T).CreateLast
+- uid: Fl.Functional.Utils.Recursion.RecursionResult`1.CreateLastAsync(`0,System.Func{System.Threading.Tasks.Task{Fl.Functional.Utils.Recursion.RecursionResult{`0}}})
+  name: CreateLastAsync(T, Func<Task<RecursionResult<T>>>)
+  href: api/Fl.Functional.Utils.Recursion.RecursionResult-1.html#Fl_Functional_Utils_Recursion_RecursionResult_1_CreateLastAsync__0_System_Func_System_Threading_Tasks_Task_Fl_Functional_Utils_Recursion_RecursionResult__0____
+  commentId: M:Fl.Functional.Utils.Recursion.RecursionResult`1.CreateLastAsync(`0,System.Func{System.Threading.Tasks.Task{Fl.Functional.Utils.Recursion.RecursionResult{`0}}})
+  name.vb: CreateLastAsync(T, Func(Of Task(Of RecursionResult(Of T))))
+  fullName: Fl.Functional.Utils.Recursion.RecursionResult<T>.CreateLastAsync(T, System.Func<System.Threading.Tasks.Task<Fl.Functional.Utils.Recursion.RecursionResult<T>>>)
+  fullName.vb: Fl.Functional.Utils.Recursion.RecursionResult(Of T).CreateLastAsync(T, System.Func(Of System.Threading.Tasks.Task(Of Fl.Functional.Utils.Recursion.RecursionResult(Of T))))
+  nameWithType: RecursionResult<T>.CreateLastAsync(T, Func<Task<RecursionResult<T>>>)
+  nameWithType.vb: RecursionResult(Of T).CreateLastAsync(T, Func(Of Task(Of RecursionResult(Of T))))
+- uid: Fl.Functional.Utils.Recursion.RecursionResult`1.CreateLastAsync*
+  name: CreateLastAsync
+  href: api/Fl.Functional.Utils.Recursion.RecursionResult-1.html#Fl_Functional_Utils_Recursion_RecursionResult_1_CreateLastAsync_
+  commentId: Overload:Fl.Functional.Utils.Recursion.RecursionResult`1.CreateLastAsync
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Recursion.RecursionResult<T>.CreateLastAsync
+  fullName.vb: Fl.Functional.Utils.Recursion.RecursionResult(Of T).CreateLastAsync
+  nameWithType: RecursionResult<T>.CreateLastAsync
+  nameWithType.vb: RecursionResult(Of T).CreateLastAsync
+- uid: Fl.Functional.Utils.Recursion.RecursionResult`1.CreateNext(`0,System.Func{Fl.Functional.Utils.Recursion.RecursionResult{`0}})
+  name: CreateNext(T, Func<RecursionResult<T>>)
+  href: api/Fl.Functional.Utils.Recursion.RecursionResult-1.html#Fl_Functional_Utils_Recursion_RecursionResult_1_CreateNext__0_System_Func_Fl_Functional_Utils_Recursion_RecursionResult__0___
+  commentId: M:Fl.Functional.Utils.Recursion.RecursionResult`1.CreateNext(`0,System.Func{Fl.Functional.Utils.Recursion.RecursionResult{`0}})
+  name.vb: CreateNext(T, Func(Of RecursionResult(Of T)))
+  fullName: Fl.Functional.Utils.Recursion.RecursionResult<T>.CreateNext(T, System.Func<Fl.Functional.Utils.Recursion.RecursionResult<T>>)
+  fullName.vb: Fl.Functional.Utils.Recursion.RecursionResult(Of T).CreateNext(T, System.Func(Of Fl.Functional.Utils.Recursion.RecursionResult(Of T)))
+  nameWithType: RecursionResult<T>.CreateNext(T, Func<RecursionResult<T>>)
+  nameWithType.vb: RecursionResult(Of T).CreateNext(T, Func(Of RecursionResult(Of T)))
+- uid: Fl.Functional.Utils.Recursion.RecursionResult`1.CreateNext*
+  name: CreateNext
+  href: api/Fl.Functional.Utils.Recursion.RecursionResult-1.html#Fl_Functional_Utils_Recursion_RecursionResult_1_CreateNext_
+  commentId: Overload:Fl.Functional.Utils.Recursion.RecursionResult`1.CreateNext
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Recursion.RecursionResult<T>.CreateNext
+  fullName.vb: Fl.Functional.Utils.Recursion.RecursionResult(Of T).CreateNext
+  nameWithType: RecursionResult<T>.CreateNext
+  nameWithType.vb: RecursionResult(Of T).CreateNext
+- uid: Fl.Functional.Utils.Recursion.RecursionResult`1.CreateNextAsync(`0,System.Func{System.Threading.Tasks.Task{Fl.Functional.Utils.Recursion.RecursionResult{`0}}})
+  name: CreateNextAsync(T, Func<Task<RecursionResult<T>>>)
+  href: api/Fl.Functional.Utils.Recursion.RecursionResult-1.html#Fl_Functional_Utils_Recursion_RecursionResult_1_CreateNextAsync__0_System_Func_System_Threading_Tasks_Task_Fl_Functional_Utils_Recursion_RecursionResult__0____
+  commentId: M:Fl.Functional.Utils.Recursion.RecursionResult`1.CreateNextAsync(`0,System.Func{System.Threading.Tasks.Task{Fl.Functional.Utils.Recursion.RecursionResult{`0}}})
+  name.vb: CreateNextAsync(T, Func(Of Task(Of RecursionResult(Of T))))
+  fullName: Fl.Functional.Utils.Recursion.RecursionResult<T>.CreateNextAsync(T, System.Func<System.Threading.Tasks.Task<Fl.Functional.Utils.Recursion.RecursionResult<T>>>)
+  fullName.vb: Fl.Functional.Utils.Recursion.RecursionResult(Of T).CreateNextAsync(T, System.Func(Of System.Threading.Tasks.Task(Of Fl.Functional.Utils.Recursion.RecursionResult(Of T))))
+  nameWithType: RecursionResult<T>.CreateNextAsync(T, Func<Task<RecursionResult<T>>>)
+  nameWithType.vb: RecursionResult(Of T).CreateNextAsync(T, Func(Of Task(Of RecursionResult(Of T))))
+- uid: Fl.Functional.Utils.Recursion.RecursionResult`1.CreateNextAsync*
+  name: CreateNextAsync
+  href: api/Fl.Functional.Utils.Recursion.RecursionResult-1.html#Fl_Functional_Utils_Recursion_RecursionResult_1_CreateNextAsync_
+  commentId: Overload:Fl.Functional.Utils.Recursion.RecursionResult`1.CreateNextAsync
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Recursion.RecursionResult<T>.CreateNextAsync
+  fullName.vb: Fl.Functional.Utils.Recursion.RecursionResult(Of T).CreateNextAsync
+  nameWithType: RecursionResult<T>.CreateNextAsync
+  nameWithType.vb: RecursionResult(Of T).CreateNextAsync
+- uid: Fl.Functional.Utils.Recursion.RecursionResult`1.IsFinalResult
+  name: IsFinalResult
+  href: api/Fl.Functional.Utils.Recursion.RecursionResult-1.html#Fl_Functional_Utils_Recursion_RecursionResult_1_IsFinalResult
+  commentId: P:Fl.Functional.Utils.Recursion.RecursionResult`1.IsFinalResult
+  fullName: Fl.Functional.Utils.Recursion.RecursionResult<T>.IsFinalResult
+  fullName.vb: Fl.Functional.Utils.Recursion.RecursionResult(Of T).IsFinalResult
+  nameWithType: RecursionResult<T>.IsFinalResult
+  nameWithType.vb: RecursionResult(Of T).IsFinalResult
+- uid: Fl.Functional.Utils.Recursion.RecursionResult`1.IsFinalResult*
+  name: IsFinalResult
+  href: api/Fl.Functional.Utils.Recursion.RecursionResult-1.html#Fl_Functional_Utils_Recursion_RecursionResult_1_IsFinalResult_
+  commentId: Overload:Fl.Functional.Utils.Recursion.RecursionResult`1.IsFinalResult
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Recursion.RecursionResult<T>.IsFinalResult
+  fullName.vb: Fl.Functional.Utils.Recursion.RecursionResult(Of T).IsFinalResult
+  nameWithType: RecursionResult<T>.IsFinalResult
+  nameWithType.vb: RecursionResult(Of T).IsFinalResult
+- uid: Fl.Functional.Utils.Recursion.RecursionResult`1.NextStep
+  name: NextStep
+  href: api/Fl.Functional.Utils.Recursion.RecursionResult-1.html#Fl_Functional_Utils_Recursion_RecursionResult_1_NextStep
+  commentId: P:Fl.Functional.Utils.Recursion.RecursionResult`1.NextStep
+  fullName: Fl.Functional.Utils.Recursion.RecursionResult<T>.NextStep
+  fullName.vb: Fl.Functional.Utils.Recursion.RecursionResult(Of T).NextStep
+  nameWithType: RecursionResult<T>.NextStep
+  nameWithType.vb: RecursionResult(Of T).NextStep
+- uid: Fl.Functional.Utils.Recursion.RecursionResult`1.NextStep*
+  name: NextStep
+  href: api/Fl.Functional.Utils.Recursion.RecursionResult-1.html#Fl_Functional_Utils_Recursion_RecursionResult_1_NextStep_
+  commentId: Overload:Fl.Functional.Utils.Recursion.RecursionResult`1.NextStep
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Recursion.RecursionResult<T>.NextStep
+  fullName.vb: Fl.Functional.Utils.Recursion.RecursionResult(Of T).NextStep
+  nameWithType: RecursionResult<T>.NextStep
+  nameWithType.vb: RecursionResult(Of T).NextStep
+- uid: Fl.Functional.Utils.Recursion.RecursionResult`1.NextStepAsync
+  name: NextStepAsync
+  href: api/Fl.Functional.Utils.Recursion.RecursionResult-1.html#Fl_Functional_Utils_Recursion_RecursionResult_1_NextStepAsync
+  commentId: P:Fl.Functional.Utils.Recursion.RecursionResult`1.NextStepAsync
+  fullName: Fl.Functional.Utils.Recursion.RecursionResult<T>.NextStepAsync
+  fullName.vb: Fl.Functional.Utils.Recursion.RecursionResult(Of T).NextStepAsync
+  nameWithType: RecursionResult<T>.NextStepAsync
+  nameWithType.vb: RecursionResult(Of T).NextStepAsync
+- uid: Fl.Functional.Utils.Recursion.RecursionResult`1.NextStepAsync*
+  name: NextStepAsync
+  href: api/Fl.Functional.Utils.Recursion.RecursionResult-1.html#Fl_Functional_Utils_Recursion_RecursionResult_1_NextStepAsync_
+  commentId: Overload:Fl.Functional.Utils.Recursion.RecursionResult`1.NextStepAsync
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Recursion.RecursionResult<T>.NextStepAsync
+  fullName.vb: Fl.Functional.Utils.Recursion.RecursionResult(Of T).NextStepAsync
+  nameWithType: RecursionResult<T>.NextStepAsync
+  nameWithType.vb: RecursionResult(Of T).NextStepAsync
+- uid: Fl.Functional.Utils.Recursion.RecursionResult`1.Result
+  name: Result
+  href: api/Fl.Functional.Utils.Recursion.RecursionResult-1.html#Fl_Functional_Utils_Recursion_RecursionResult_1_Result
+  commentId: P:Fl.Functional.Utils.Recursion.RecursionResult`1.Result
+  fullName: Fl.Functional.Utils.Recursion.RecursionResult<T>.Result
+  fullName.vb: Fl.Functional.Utils.Recursion.RecursionResult(Of T).Result
+  nameWithType: RecursionResult<T>.Result
+  nameWithType.vb: RecursionResult(Of T).Result
+- uid: Fl.Functional.Utils.Recursion.RecursionResult`1.Result*
+  name: Result
+  href: api/Fl.Functional.Utils.Recursion.RecursionResult-1.html#Fl_Functional_Utils_Recursion_RecursionResult_1_Result_
+  commentId: Overload:Fl.Functional.Utils.Recursion.RecursionResult`1.Result
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Recursion.RecursionResult<T>.Result
+  fullName.vb: Fl.Functional.Utils.Recursion.RecursionResult(Of T).Result
+  nameWithType: RecursionResult<T>.Result
+  nameWithType.vb: RecursionResult(Of T).Result
+- uid: Fl.Functional.Utils.Recursion.TailRecursion
+  name: TailRecursion
+  href: api/Fl.Functional.Utils.Recursion.TailRecursion.html
+  commentId: T:Fl.Functional.Utils.Recursion.TailRecursion
+  fullName: Fl.Functional.Utils.Recursion.TailRecursion
+  nameWithType: TailRecursion
+- uid: Fl.Functional.Utils.Recursion.TailRecursion.Execute*
+  name: Execute
+  href: api/Fl.Functional.Utils.Recursion.TailRecursion.html#Fl_Functional_Utils_Recursion_TailRecursion_Execute_
+  commentId: Overload:Fl.Functional.Utils.Recursion.TailRecursion.Execute
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Recursion.TailRecursion.Execute
+  nameWithType: TailRecursion.Execute
+- uid: Fl.Functional.Utils.Recursion.TailRecursion.ExecuteAsync*
+  name: ExecuteAsync
+  href: api/Fl.Functional.Utils.Recursion.TailRecursion.html#Fl_Functional_Utils_Recursion_TailRecursion_ExecuteAsync_
+  commentId: Overload:Fl.Functional.Utils.Recursion.TailRecursion.ExecuteAsync
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Recursion.TailRecursion.ExecuteAsync
+  nameWithType: TailRecursion.ExecuteAsync
+- uid: Fl.Functional.Utils.Recursion.TailRecursion.ExecuteAsync``1(System.Func{System.Threading.Tasks.Task{Fl.Functional.Utils.Recursion.RecursionResult{``0}}})
+  name: ExecuteAsync<T>(Func<Task<RecursionResult<T>>>)
+  href: api/Fl.Functional.Utils.Recursion.TailRecursion.html#Fl_Functional_Utils_Recursion_TailRecursion_ExecuteAsync__1_System_Func_System_Threading_Tasks_Task_Fl_Functional_Utils_Recursion_RecursionResult___0____
+  commentId: M:Fl.Functional.Utils.Recursion.TailRecursion.ExecuteAsync``1(System.Func{System.Threading.Tasks.Task{Fl.Functional.Utils.Recursion.RecursionResult{``0}}})
+  name.vb: ExecuteAsync(Of T)(Func(Of Task(Of RecursionResult(Of T))))
+  fullName: Fl.Functional.Utils.Recursion.TailRecursion.ExecuteAsync<T>(System.Func<System.Threading.Tasks.Task<Fl.Functional.Utils.Recursion.RecursionResult<T>>>)
+  fullName.vb: Fl.Functional.Utils.Recursion.TailRecursion.ExecuteAsync(Of T)(System.Func(Of System.Threading.Tasks.Task(Of Fl.Functional.Utils.Recursion.RecursionResult(Of T))))
+  nameWithType: TailRecursion.ExecuteAsync<T>(Func<Task<RecursionResult<T>>>)
+  nameWithType.vb: TailRecursion.ExecuteAsync(Of T)(Func(Of Task(Of RecursionResult(Of T))))
+- uid: Fl.Functional.Utils.Recursion.TailRecursion.Execute``1(System.Func{Fl.Functional.Utils.Recursion.RecursionResult{``0}})
+  name: Execute<T>(Func<RecursionResult<T>>)
+  href: api/Fl.Functional.Utils.Recursion.TailRecursion.html#Fl_Functional_Utils_Recursion_TailRecursion_Execute__1_System_Func_Fl_Functional_Utils_Recursion_RecursionResult___0___
+  commentId: M:Fl.Functional.Utils.Recursion.TailRecursion.Execute``1(System.Func{Fl.Functional.Utils.Recursion.RecursionResult{``0}})
+  name.vb: Execute(Of T)(Func(Of RecursionResult(Of T)))
+  fullName: Fl.Functional.Utils.Recursion.TailRecursion.Execute<T>(System.Func<Fl.Functional.Utils.Recursion.RecursionResult<T>>)
+  fullName.vb: Fl.Functional.Utils.Recursion.TailRecursion.Execute(Of T)(System.Func(Of Fl.Functional.Utils.Recursion.RecursionResult(Of T)))
+  nameWithType: TailRecursion.Execute<T>(Func<RecursionResult<T>>)
+  nameWithType.vb: TailRecursion.Execute(Of T)(Func(Of RecursionResult(Of T)))
+- uid: Fl.Functional.Utils.Recursion.TailRecursion.Next*
+  name: Next
+  href: api/Fl.Functional.Utils.Recursion.TailRecursion.html#Fl_Functional_Utils_Recursion_TailRecursion_Next_
+  commentId: Overload:Fl.Functional.Utils.Recursion.TailRecursion.Next
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Recursion.TailRecursion.Next
+  nameWithType: TailRecursion.Next
+- uid: Fl.Functional.Utils.Recursion.TailRecursion.NextAsync*
+  name: NextAsync
+  href: api/Fl.Functional.Utils.Recursion.TailRecursion.html#Fl_Functional_Utils_Recursion_TailRecursion_NextAsync_
+  commentId: Overload:Fl.Functional.Utils.Recursion.TailRecursion.NextAsync
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Recursion.TailRecursion.NextAsync
+  nameWithType: TailRecursion.NextAsync
+- uid: Fl.Functional.Utils.Recursion.TailRecursion.NextAsync``1(System.Func{System.Threading.Tasks.Task{Fl.Functional.Utils.Recursion.RecursionResult{``0}}})
+  name: NextAsync<T>(Func<Task<RecursionResult<T>>>)
+  href: api/Fl.Functional.Utils.Recursion.TailRecursion.html#Fl_Functional_Utils_Recursion_TailRecursion_NextAsync__1_System_Func_System_Threading_Tasks_Task_Fl_Functional_Utils_Recursion_RecursionResult___0____
+  commentId: M:Fl.Functional.Utils.Recursion.TailRecursion.NextAsync``1(System.Func{System.Threading.Tasks.Task{Fl.Functional.Utils.Recursion.RecursionResult{``0}}})
+  name.vb: NextAsync(Of T)(Func(Of Task(Of RecursionResult(Of T))))
+  fullName: Fl.Functional.Utils.Recursion.TailRecursion.NextAsync<T>(System.Func<System.Threading.Tasks.Task<Fl.Functional.Utils.Recursion.RecursionResult<T>>>)
+  fullName.vb: Fl.Functional.Utils.Recursion.TailRecursion.NextAsync(Of T)(System.Func(Of System.Threading.Tasks.Task(Of Fl.Functional.Utils.Recursion.RecursionResult(Of T))))
+  nameWithType: TailRecursion.NextAsync<T>(Func<Task<RecursionResult<T>>>)
+  nameWithType.vb: TailRecursion.NextAsync(Of T)(Func(Of Task(Of RecursionResult(Of T))))
+- uid: Fl.Functional.Utils.Recursion.TailRecursion.Next``1(System.Func{Fl.Functional.Utils.Recursion.RecursionResult{``0}})
+  name: Next<T>(Func<RecursionResult<T>>)
+  href: api/Fl.Functional.Utils.Recursion.TailRecursion.html#Fl_Functional_Utils_Recursion_TailRecursion_Next__1_System_Func_Fl_Functional_Utils_Recursion_RecursionResult___0___
+  commentId: M:Fl.Functional.Utils.Recursion.TailRecursion.Next``1(System.Func{Fl.Functional.Utils.Recursion.RecursionResult{``0}})
+  name.vb: Next(Of T)(Func(Of RecursionResult(Of T)))
+  fullName: Fl.Functional.Utils.Recursion.TailRecursion.Next<T>(System.Func<Fl.Functional.Utils.Recursion.RecursionResult<T>>)
+  fullName.vb: Fl.Functional.Utils.Recursion.TailRecursion.Next(Of T)(System.Func(Of Fl.Functional.Utils.Recursion.RecursionResult(Of T)))
+  nameWithType: TailRecursion.Next<T>(Func<RecursionResult<T>>)
+  nameWithType.vb: TailRecursion.Next(Of T)(Func(Of RecursionResult(Of T)))
+- uid: Fl.Functional.Utils.Recursion.TailRecursion.Return*
+  name: Return
+  href: api/Fl.Functional.Utils.Recursion.TailRecursion.html#Fl_Functional_Utils_Recursion_TailRecursion_Return_
+  commentId: Overload:Fl.Functional.Utils.Recursion.TailRecursion.Return
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Recursion.TailRecursion.Return
+  nameWithType: TailRecursion.Return
+- uid: Fl.Functional.Utils.Recursion.TailRecursion.ReturnAsync*
+  name: ReturnAsync
+  href: api/Fl.Functional.Utils.Recursion.TailRecursion.html#Fl_Functional_Utils_Recursion_TailRecursion_ReturnAsync_
+  commentId: Overload:Fl.Functional.Utils.Recursion.TailRecursion.ReturnAsync
+  isSpec: "True"
+  fullName: Fl.Functional.Utils.Recursion.TailRecursion.ReturnAsync
+  nameWithType: TailRecursion.ReturnAsync
+- uid: Fl.Functional.Utils.Recursion.TailRecursion.ReturnAsync``1(``0)
+  name: ReturnAsync<T>(T)
+  href: api/Fl.Functional.Utils.Recursion.TailRecursion.html#Fl_Functional_Utils_Recursion_TailRecursion_ReturnAsync__1___0_
+  commentId: M:Fl.Functional.Utils.Recursion.TailRecursion.ReturnAsync``1(``0)
+  name.vb: ReturnAsync(Of T)(T)
+  fullName: Fl.Functional.Utils.Recursion.TailRecursion.ReturnAsync<T>(T)
+  fullName.vb: Fl.Functional.Utils.Recursion.TailRecursion.ReturnAsync(Of T)(T)
+  nameWithType: TailRecursion.ReturnAsync<T>(T)
+  nameWithType.vb: TailRecursion.ReturnAsync(Of T)(T)
+- uid: Fl.Functional.Utils.Recursion.TailRecursion.Return``1(``0)
+  name: Return<T>(T)
+  href: api/Fl.Functional.Utils.Recursion.TailRecursion.html#Fl_Functional_Utils_Recursion_TailRecursion_Return__1___0_
+  commentId: M:Fl.Functional.Utils.Recursion.TailRecursion.Return``1(``0)
+  name.vb: Return(Of T)(T)
+  fullName: Fl.Functional.Utils.Recursion.TailRecursion.Return<T>(T)
+  fullName.vb: Fl.Functional.Utils.Recursion.TailRecursion.Return(Of T)(T)
+  nameWithType: TailRecursion.Return<T>(T)
+  nameWithType.vb: TailRecursion.Return(Of T)(T)
